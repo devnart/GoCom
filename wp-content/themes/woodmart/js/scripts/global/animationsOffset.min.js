@@ -1,0 +1,1 @@
+!function(a){woodmartThemeModule.animationsOffset=function(){void 0!==a.fn.waypoint&&a(".wpb_animate_when_almost_visible:not(.wpb_start_animation)").waypoint(function(){a(a(this)[0].element).addClass("wpb_start_animation animated")},{offset:"100%"})},a(document).ready(function(){woodmartThemeModule.animationsOffset()})}(jQuery);

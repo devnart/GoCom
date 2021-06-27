@@ -1,0 +1,57 @@
+{
+    "text-font": {
+        "font-family": "Lora",
+        "font-weight": "400"
+    },
+    "primary-font": {
+        "font-family": "David Libre",
+        "font-weight": "400"
+    },
+    "post-titles-font": {
+        "font-family": "David Libre",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "Great Vibes",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "David Libre",
+        "font-weight": "400"
+    },
+    "navigation-font": {
+        "font-family": "David Libre",
+        "font-weight": "600",
+        "font-size": "14"
+    },
+    "primary-color": "#ed2353",
+    "btns_default_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_accent_style": "rounded",
+    "btns_shop_bg": "#ed2353",
+    "btns_shop_bg_hover": "#D8204C",
+    "btns_accent_bg": "#ed2353",
+    "btns_accent_bg_hover": "#D8204C",
+    "form_fields_style": "rounded",
+    "form_border_width": "1",
+    "product_sticky": "yes",
+    "footer-layout": "1",
+    "disable_copyrights": "",
+    "prefooter_area": "",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "no-repeat",
+        "background-size": "contain",
+        "background-position": "center bottom",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2019\/02\/flowers-footer-bg-blur-min.jpg" 
+    },
+    "advanced_typography": {
+        "0": {
+			"selector": ["mega_menu_drop_first_level"],
+			"custom-selector": "",
+            "google": "0",
+            "font-weight": "600"
+        }
+    },
+    "products_spacing": "20"
+}

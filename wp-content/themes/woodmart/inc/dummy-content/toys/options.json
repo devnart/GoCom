@@ -1,0 +1,39 @@
+{
+    "primary-color": "#3BB5E8",
+    "prefooter_area": "",
+    "footer-bar-bg": {
+        "background-color": "#2980EA",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-attachment": "",
+        "background-position": "center bottom",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2018\/02\/v-toy-ft-bg-1.jpg"
+    },
+    "footer-style": "light",
+    "primary-font": {
+        "font-family": "Itim",
+        "font-weight": "400"
+    },
+    "post-titles-font": {
+        "font-family": "Lato",
+        "font-weight": "700"
+    },
+    "secondary-font": {
+        "font-family": "Itim",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Itim"
+    },
+    "btns_shop_bg": "#3BB5E8",
+    "btns_accent_bg": "#3BB5E8",
+    "btns_shop_bg_hover": "#3DA6D2",
+    "btns_accent_bg_hover": "#3DA6D2",
+    "secondary-color": "#FBA024",
+    "navigation-font": {
+        "font-family": "Itim",
+        "font-weight": "400",
+        "font-size": "15"
+    },
+    "products_spacing": "20"
+}

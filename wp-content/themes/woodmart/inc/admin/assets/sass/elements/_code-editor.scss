@@ -1,0 +1,26 @@
+// ------------------------------------------------------------------------------------
+// CODE EDITOR
+// ------------------------------------------------------------------------------------
+
+.xts-options {
+
+	.CodeMirror {
+		border-color: $xts-option-border-color;
+		border-radius: $xts-option-border-radius;
+		border-width: 1px;
+		border-style: solid;
+		transition: .2s border-color ease-in-out;
+
+		&:hover {
+			border-color: darken($xts-option-border-color,8%);
+		}
+
+		&.CodeMirror-focused {
+			border-color: $xts-color-primary;
+		}
+	}
+
+	.CodeMirror-activeline-background {
+		background-color: transparentize($xts-color-primary,.9);
+    }
+}

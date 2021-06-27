@@ -1,0 +1,65 @@
+// ------------------------------------------------------------------------------------
+// XTS RANGE SLIDER
+// ------------------------------------------------------------------------------------
+
+.xts-range-slider {
+	margin-top: $xts-option-space * 1.5 !important;
+	border: none !important;
+	border-radius: $xts-option-border-radius;
+	cursor: pointer;
+
+	@extend %xts-js-loading-fadein;
+
+	.ui-widget-header {
+		border-radius: $xts-option-border-radius;
+		background: $xts-color-primary;
+	}
+
+	&.ui-slider-horizontal {
+		height: 6px;
+		background-color: $xts-button-color-default;
+
+		.ui-slider-handle {
+			top: -5px;
+			width: 16px;
+			height: 16px;
+			border-width: 2px;
+			border-color: $xts-color-primary;
+			border-radius: 50%;
+			background-color: #FFF;
+			cursor: pointer;
+			transition: box-shadow .2s ease;
+		}
+	}
+
+	.ui-slider-handle {
+
+		&.ui-state-hover,
+		&.ui-state-focus {
+			box-shadow: 0 0 0 2px transparentize($xts-color-primary,.7);
+		}
+	}
+
+	&:empty {
+		height: 6px;
+	}
+
+	.xts-dashboard & {
+		max-width: $xts-input-width;
+	}
+}
+
+.xts-range-field-value-display {
+	display: block;
+	margin-top: $xts-option-space;
+}
+
+.xts-range-field-value-text {
+	font-weight: 600;
+
+	@extend %xts-js-loading-fadein;
+
+	&:empty {
+		display: none;
+	}
+}

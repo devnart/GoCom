@@ -1,0 +1,72 @@
+{
+    "sidebar-1548": {
+        "widgets": {
+            "woodmart-author-information": {
+                "title": "",
+                "image": "229",
+                "img_size": "120x120",
+                "author_name": "Hello! My name Sofia",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page...",
+                "alignment": "center"
+            },
+            "categories": {},
+            "woodmart-recent-posts": {
+                "title": "Recent Posts",
+                "limit": "4",
+                "thumb_height": "60",
+                "thumb_width": "70"
+            },
+            "woodmart-banner": {
+                "image": "117",
+                "img_size": "607x900",
+                "link": "#",
+                "woodmart_color_scheme": "light",
+                "btn_text": "VIEW MORE",
+                "btn_position": "static",
+                "btn_color": "white",
+                "btn_style": "link",
+                "title": "Accessories for kitchen",
+                "subtitle": "INSPIRATION DESIGN",
+                "subtitle_color": "primary",
+                "subtitle_style": "background",
+                "title_size": "custom",
+                "font_weight": "0",
+                "title_desktop_text_size": "24",
+                "title_tablet_text_size": "20",
+                "title_mobile_text_size": "18",
+                "subtitle_desktop_text_size": "12",
+                "subtitle_tablet_text_size": "12",
+                "subtitle_mobile_text_size": "12",
+                "content": "",
+                "text_alignment": "center",
+                "horizontal_alignment": "right",
+                "vertical_alignment": "middle"
+            },
+            "woodmart-instagram":{
+                "title": "Instagram",
+                "username": "lonnymag",
+                "number": "9",
+                "size": "large"
+            },
+            "recent-comments": {
+                "title": "",
+                "number": "5"
+            },
+            "tag_cloud": {
+                "title": "Tags",
+                "taxonomy": "post_tag",
+                "show_count": false
+            }
+        },
+        "flush": true
+    },
+
+    "footer-1": {
+		"widgets": {
+			"woodmart-html-block": {
+				"id": "7831"
+			}
+		}, 
+		"flush": true
+	}
+}

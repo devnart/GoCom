@@ -1,0 +1,77 @@
+// ------------------------------------------------------------------------------------------------
+// BUTTONS
+// ------------------------------------------------------------------------------------------------
+
+.xts-btn {
+	@extend %xts-button;
+	border-radius: $xts-option-border-radius;
+	border: none;
+	outline: none;
+}
+
+.xts-btn-primary {
+	@extend %xts-button-primary;
+	@extend %xts-button-primary-hover;
+}
+
+.xts-btn-disable,
+.xts-remove-upload-btn {
+	background-color: $xts-button-color-remove;
+	color: #FFF;
+
+	&:hover {
+		background-color: $xts-button-color-remove-hover;
+	}
+
+	&:hover,
+	&:focus {
+		color: #FFF;
+	}
+}
+
+.xts-remove-upload-btn {
+	display: none;
+
+	&.xts-active {
+		display: block;
+	}
+}
+
+.xts-inline-btn {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	width: auto !important;
+	transition: all .2s ease-in-out;
+
+	&:before {
+		position: relative;
+		bottom: -1px;
+		font-family: "dashicons";
+		margin-right: 3px;
+		vertical-align: top;
+		font-weight: 400;
+	}
+
+	&:hover {
+		opacity: .8;
+	}
+}
+
+.xts-inline-btn-add {
+	color: $xts-color-primary;
+	
+	&:before {
+		content: "\f502";
+	}
+	
+}
+
+.xts-inline-btn-remove {
+	color: $xts-button-color-remove;
+
+	&:before {
+		content: "\f182";
+	}
+}

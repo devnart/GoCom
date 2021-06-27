@@ -1,0 +1,45 @@
+{
+    "primary-color": "#da3c3c",
+    "primary-font": {
+        "font-family": "Montserrat",
+        "font-weight": "700"
+    },
+    "text-font": {
+        "font-family": "Lato"
+    },
+    "post-titles-font": {
+        "font-family": "Lato",
+        "font-weight": "700"
+    },
+    "navigation-font": {
+        "font-family": "Lato",
+        "font-weight": "700"
+    },
+    "widget-titles-font": {
+        "font-family": "Montserrat",
+        "font-weight": "700"
+    },
+    "blog_style": "flat",
+    "products_hover": "alt",
+    "prefooter_area": "[html_block id=\"453\"]",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "#0c0c0c"
+    },
+    "btns_shop_bg": "#da3c3c",
+    "btns_shop_bg_hover": "#c13030",
+    "btns_shop_style": "flat",
+    "btns_accent_bg": "#da3c3c",
+    "btns_accent_bg_hover": "#c13030",
+    "btns_accent_style": "flat",
+    "btns_default_style": "flat",
+    "shop_categories": "",
+    "title-background": {
+        "background-color": "#f9f9f9"
+    },
+    "page-title-color": "dark",
+    "page-title-size": "small",
+    "blog_excerpt_length": "100",
+    "form_border_width": "1",
+    "products_spacing": "20"
+}

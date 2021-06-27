@@ -1,0 +1,15 @@
+ {
+    "name": "Accessories slider",
+    "slug": "accessories-slider",
+    "meta": {
+        "stretch_slider": "on",
+        "height": 700,
+        "height_tablet": 500,
+        "height_mobile": 420,
+        "arrows_style": 1,
+        "pagination_style": 1,
+        "pagination_color": "dark",
+        "autoplay": "off",
+        "animation": "slide"
+    }
+  }

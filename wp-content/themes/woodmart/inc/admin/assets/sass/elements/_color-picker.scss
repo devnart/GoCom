@@ -1,0 +1,111 @@
+// ------------------------------------------------------------------------------------
+// XTS COLOR-PICKER
+// ------------------------------------------------------------------------------------
+
+.xts-options {
+
+	.wp-color-result.button {
+		position: relative;
+		// width: 135px; // for smooth loading
+		height: $xts-option-input-height;
+		padding-left: $xts-option-input-height;
+		border-radius: $xts-option-border-radius;
+		margin-right: 0;
+		margin-bottom: 0;
+		border: none;
+		box-shadow: inset 0 0 2px rgba(0,0,0,.15);
+
+		&:active {
+			background: none;
+		}
+
+		&:hover {
+
+			.wp-color-result-text {
+				background-color: $xts-button-color-default-hover;
+			}
+		}
+	}
+
+	.wp-picker-container {
+		display: inline-block;
+	}
+
+	.wp-color-result-text {
+		@extend %xts-button;
+		margin-right: -1px;
+		padding: 0 10px;
+		border-radius: 0 $xts-option-border-radius $xts-option-border-radius 0;
+		border: none;
+	}
+
+	.color-alpha {
+		width: 35px !important;
+		height: 35px !important;
+		border: 1px solid rgb(238, 238, 238);
+		border-top-left-radius: $xts-option-border-radius !important;
+		border-bottom-left-radius: $xts-option-border-radius !important;
+	}
+
+	.wp-picker-input-wrap {
+		margin-left: $xts-option-space;
+
+		label {
+			display: inline-block;
+		}
+
+		.button {
+			@extend %xts-button;
+			border-radius: $xts-option-border-radius;
+			margin-left: $xts-option-space;
+			border: none;
+			transform: none;
+		}
+	}
+
+	.rtl & {
+
+		.wp-color-result.button {
+			padding-left: 0;
+			padding-right: $xts-option-input-height;
+			margin-left: 0;
+		}
+
+		.wp-color-result-text {
+			margin-right: 0;
+			margin-left: -1px;
+			border-radius: $xts-option-border-radius 0 0 $xts-option-border-radius;
+		}
+
+		.color-alpha {
+			right: 0 !important;
+			left: auto !important;
+			border-top-left-radius: 0 !important;
+			border-bottom-left-radius: 0 !important;
+			border-top-right-radius: $xts-option-border-radius !important;
+			border-bottom-right-radius: $xts-option-border-radius !important;
+		}
+
+		.wp-picker-input-wrap {
+			margin-left: 0;
+			margin-right: $xts-option-space;
+	
+			.button {
+				margin-left: 0;
+				margin-right: $xts-option-space;
+			}
+		}
+	}
+}
+
+// STYLES BEFORE COLOR-PICKER LOAD
+
+.xts-color-control,
+.xts-bg-color {
+
+	> input[type="text"] {
+		width: 135px;
+		height: $xts-option-input-height;
+		opacity: 0;
+	}
+}

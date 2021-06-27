@@ -1,0 +1,38 @@
+{
+    "primary-color": "#e92d74",
+    "footer-bar-bg": {
+        "background-color": "#1a1a1a"
+    },
+    "footer-style": "light",
+    "btns_accent_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_default_style": "rounded",
+    "products_hover": "info",
+    "btns_shop_bg": "#e92d74",
+    "btns_accent_bg": "#e92d74",
+    "btns_shop_bg_hover": "#D2276A",
+    "btns_accent_bg_hover": "#D2276A",
+    "product_sticky": "yes",
+    "primary-font": {
+        "font-family": "Poppins"
+    },
+    "post-titles-font": {
+        "font-family": "Poppins"
+    },
+    "widget-titles-font": {
+        "font-family": "Poppins"
+    },
+    "text-font": {
+        "font-family": "Cabin"
+    },
+    "form_fields_style": "rounded",
+    "navigation-font": {
+        "font-family": "Cabin"
+    },
+    "product-background": {
+        "background-color": "#FAFAFA"
+    },
+    "product_summary_shadow": "yes",
+    "page-title-size": "large",
+    "products_spacing": "20"
+}

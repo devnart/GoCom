@@ -1,0 +1,311 @@
+// ------------------------------------------
+// XTS TYPOGRAPHY
+// ------------------------------------------
+
+.xts-multiple-typography {
+
+	.xts-typography-section {
+		position: relative;
+		margin-bottom: 20px;
+		padding: 20px;
+		max-width: 800px;
+		border: 1px solid $xts-option-border-color;
+		border-radius: $xts-option-border-radius;
+		background: #FFF;
+		box-shadow: 0 1px 2px #EFEFEF;
+	}
+
+	.xts-typography-section {
+
+		.xts-typography-custom-selector {
+			margin-bottom: $xts-option-space;
+			max-width: 100%;
+		}
+	}
+}
+
+.xts-typography-section,
+.xts-typography-color-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.xts-typography-responsive-controls {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: $xts-option-space;
+	max-width: $xts-typography-input-width;
+	width: 100%;
+
+	> div {
+		margin-right: $xts-option-space;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	.rtl & {
+
+		> div {
+			margin-right: 0;
+			margin-left: $xts-option-space;
+
+			&:last-child {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+.xts-typography-size-container {
+	margin-right: $xts-option-space;
+
+	.rtl & {
+		margin-right: 0;
+		margin-left: $xts-option-space;
+	}
+}
+
+.xts-typography-color-container {
+	width: 100%;
+}
+
+.xts-typography-color-point {
+
+	&:first-child {
+		margin-right: $xts-option-space;
+	}
+
+	.rtl & {
+
+		&:first-child {
+			margin-right: 0;
+			margin-left: $xts-option-space;
+		}
+	}
+}
+
+.xts-multiple-typography {
+
+	.xts-typography-color-point {
+		max-width: $xts-typography-input-width;
+		width: 100%;
+	}
+}
+
+.xts-typography-responsive-opener {
+	width: 20px;
+	height: $xts-option-input-height;
+	font-size: 16px;
+	cursor: pointer;
+	transition: color .2s ease-in-out;
+
+	&:hover {
+		color: $xts-color-primary;
+	}
+
+	&:before {
+		content: "\f345";
+		font-family: dashicons;
+		line-height: $xts-option-input-height;
+	}
+
+	.rtl & {
+
+		&:before {
+			content: "\f341";
+		}
+	}
+}
+
+div.xts-typography-font-container {
+	display: flex;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	width: 100%;
+
+	> * {
+		margin-right: 12px !important;
+		max-width: 50% !important;
+		width: 335px !important;
+	}
+
+	.xts-typography-family {
+		margin-bottom: $xts-option-space;
+	}
+
+	.select2-container--xts {
+		max-width: 100%;
+	}
+
+	.rtl & {
+
+		> * {
+			margin-right: 0 !important;
+			margin-left: 12px !important;
+		}
+	}
+}
+
+.xts-typography-preview {
+	margin-top: $xts-option-space;
+	margin-right: 90px;
+	margin-bottom: 0;
+	padding: 15px;
+	border: 1px solid $xts-option-border-color;
+	border-radius: $xts-option-border-radius;
+
+	.rtl & {
+		margin-right: 0;
+		margin-left: 90px;
+	}
+}
+
+.xts-typography-control-desktop,
+.xts-typography-control-tablet,
+.xts-typography-control-mobile {
+
+	label {
+
+		&:before {
+			display: inline-block;
+			margin-right: 3px;
+			color: #BFBFBF;
+			vertical-align: middle;
+			font-weight: 400;
+			font-family: "dashicons";
+		}
+	}
+
+	.rtl & {
+
+		label {
+
+			&:before {
+				margin-right: 0;
+				margin-left: 3px;
+			}
+		}
+	}
+}
+
+.xts-typography-control-desktop {
+
+	label {
+
+		&:before {
+			content: "\f472";
+		}
+	}
+}
+
+.xts-typography-control-tablet {
+
+	label {
+
+		&:before {
+			content: "\f471";
+		}
+	}
+}
+
+.xts-typography-control-mobile {
+
+	label {
+
+		&:before {
+			content: "\f470";
+		}
+	}
+}
+
+.xts-typography-btn-remove {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+
+	.rtl & {
+		right: auto;
+		left: 20px;
+	}
+}
+
+// ------------------------------------------
+// XTS CUSTOM FONT
+// ------------------------------------------
+
+.xts-custom-fonts-section {
+	position: relative;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	// margin-bottom: 30px;
+	margin-bottom: $xts-option-space * 2;
+	margin-bottom: 20px;
+	padding: 20px;
+	max-width: 800px;
+	border: 1px solid $xts-option-border-color;
+	border-radius: $xts-option-border-radius;
+	background: #FFF;
+	box-shadow: 0 1px 2px #EFEFEF;
+
+	.xts-inline-btn-remove {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.rtl & {
+
+		.xts-inline-btn-remove {
+			right: auto;
+			left: 20px;
+		}
+	}
+}
+
+.xts-custom-fonts-title,
+.xts-custom-fonts-label {
+	margin-top: 0;
+}
+
+.xts-custom-fonts-title {
+	flex-basis: 100%;
+	margin-bottom: $xts-option-space * 2;
+}
+
+.xts-custom-fonts-label {
+	margin-bottom: 5px;
+}
+
+.xts-custom-fonts-field {
+	flex-basis: 50%;
+	margin-bottom: $xts-option-space;
+
+	.xts-upload-preview {
+
+		> img {
+			display: none;
+		}
+	}
+
+	.xts-custom-fonts-title {
+		margin-bottom: 5px;
+	}
+
+	.xts-upload-preview {
+		margin-bottom: $xts-option-space;
+	}
+}
+
+// ------------------------------------------
+// ADVANCED TYPOGRAPHY
+// ------------------------------------------
+
+.xts-advanced-typography-field {
+
+	.select2-container--xts {
+		max-width: $xts-typography-input-width * 2 + 12px;
+	}
+}

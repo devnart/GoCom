@@ -1,0 +1,12 @@
+{
+    "primary-color": "#0054ac",
+    "primary-font": {
+        "font-family": "Montserrat",
+        "font-weight": "700"
+    },
+    "btns_accent_bg": "#0054ac",
+    "btns_shop_bg": "#0054ac",
+    "btns_accent_bg_hover": "#034181",
+    "btns_shop_bg_hover": "#034181",
+    "products_spacing": "20"
+}

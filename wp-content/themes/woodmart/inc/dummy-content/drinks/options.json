@@ -1,0 +1,105 @@
+{
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Jost",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "2544"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2541"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2543"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2542"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2540"
+            }
+        },
+        "2": {
+            "font-name": "Jost",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "2548"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2549"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2547"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2546"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2545"
+            }
+        }
+    },    
+    "text-font": {
+        "font-family": "Jost",
+        "font-weight": "400",
+        "font-size": "16"
+    },
+    "primary-font": {
+        "font-family": "Playfair Display",
+        "font-weight": "400"
+    },
+    "post-titles-font": {
+        "font-family": "Playfair Display",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "Great Vibes",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Playfair Display",
+        "font-weight": "400"
+    },
+    "navigation-font": {
+        "font-family": "Jost",
+        "font-weight": "600",
+        "font-size": "13"
+    },
+    "primary-color": "#f2ad44",    
+    "btns_shop_bg": "#f2ad44",
+    "btns_shop_bg_hover": "#f2960c",
+    "btns_accent_bg": "#f2ad44",
+    "btns_accent_bg_hover": "#f2960c",
+    "form_fields_style": "square",
+    "form_border_width": "1",
+    "pages-background": {
+        "background-color": "",
+        "background-repeat": "repeat-y",
+        "background-position": "center top",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2019\/08\/vertical-bg-line-opt.png"
+    },
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2019\/08\/drink-footer-bg-blur-opt.jpg"
+    },
+    "single_product_header": "header_763092",
+    "sticky_toolbar": "",
+    "age_verify": "yes",
+    "age_verify_color_scheme": "light",
+    "age_verify_background":{"color":"","url":"http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2020\/02\/drink-popup-min.jpg","id":"2692","repeat":"","size":"","attachment":"","position":""},
+    "products_spacing": "20"
+}

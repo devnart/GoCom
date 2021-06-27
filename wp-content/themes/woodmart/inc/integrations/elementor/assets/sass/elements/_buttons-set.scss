@@ -1,0 +1,157 @@
+// ------------------------------------------
+// BUTTON SET
+// ------------------------------------------
+
+.xts-btns-set {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -3px;
+
+	-ms-flex-wrap: wrap;
+
+	&:not(.xts-images-set) {
+		margin-bottom: 7px;
+	}
+}
+
+.xts-set-item {
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.xts-set-btn {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-pack: center;
+	flex-grow: 1;
+	justify-content: center;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	padding: 5px;
+	border: 1px solid #A4AFB7;
+	border-radius: 3px;
+	color: #555;
+	font-size: 12px;
+
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+
+	&:hover {
+		color: #222;
+	}
+
+	&.xts-btns-set-active {
+		background-color: #A4AFB7;
+		color: #FFF;
+	}
+}
+
+// ------------------------------------------
+// IMAGE SET
+// ------------------------------------------
+
+.xts-images-set {
+	margin-right: -5px;
+	margin-left: -5px;
+
+	img {
+		display: block;
+		padding: 3px;
+		max-height: 48px;
+		width: 100%;
+		border: 1px solid #E3E6EA;
+		border-radius: 3px;
+		transition: inherit;
+	}
+}
+
+.xts-set-btn-image {
+	position: relative;
+	flex-basis: 33.3333%;
+	margin-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+
+	-ms-flex-preferred-size: 33.3333%;
+
+	img {
+		object-fit: contain;
+		object-position: center;
+	}
+
+	&:hover,
+	&.xts-btns-set-active {
+		font-weight: 500;
+
+		img {
+			border-color: #A4AFB7;
+		}
+	}
+
+	&:hover {
+
+		.xts-set-tooltip {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+}
+
+//**** BUTTON SET 2 COLUMNS ****//
+
+.xts-style-col-2 {
+
+	.xts-set-btn-image {
+		flex-basis: 50%;
+
+		-ms-flex-preferred-size: 50%;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+
+	.xts-set-btn {
+		border-color: #636363;
+		background-color: #34383C;
+		color: #E0E1E3;
+
+		&:hover {
+			border-color: #7D7E82;
+			color: #FFF;
+		}
+
+		&.xts-btns-set-active {
+			background-color: #E7E7E7;
+			color: #060606;
+		}
+	}
+
+	.xts-images-set {
+
+		img {
+			border-color: #636363;
+			background-color: #34383C;
+		}
+	}
+
+	.xts-set-btn-image {
+
+		&:hover {
+
+			img {
+				border-color: #7D7E82;
+			}
+		}
+
+		&.xts-btns-set-active {
+
+			img {
+				border-color: #BFBFBF;
+			}
+		}
+	}
+}

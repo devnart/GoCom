@@ -1,0 +1,65 @@
+{
+    "text-font": {
+        "font-family": "Hind",
+        "font-weight": "400",
+        "font-size": "14"
+    },
+    "primary-font": {
+        "font-family": "Palanquin Dark",
+        "font-weight": "400"
+    },
+    "post-titles-font": {
+        "font-family": "Palanquin Dark",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Palanquin Dark",
+        "font-weight": "400"
+    },
+    "navigation-font": {
+        "font-family": "Hind",
+        "font-weight": "600",
+        "text-transform":"none"
+
+    },
+    "primary-color": "#ff5e2b",
+    "btns_shop_bg": "#ff5e2b",
+    "btns_shop_bg_hover": "#ec5727",
+    "btns_accent_bg": "#ff5e2b",
+    "btns_accent_bg_hover": "#ec5727",
+    "pages-background": {
+        "background-color": "#f8f8f8",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "site_width": "custom",
+    "site_custom_width": "1300",
+    "footer-bar-bg": {
+        "background-color": "#014b8f",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": ""
+    },
+    "footer-style": "light",
+    "prefooter_area": "[html_block id=\"7604\"]",
+    "form_border_width": "1",
+    "advanced_typography": {
+        "0": {
+			"selector": ["browse_categories"],
+			"custom-selector": "",
+            "google": "0",
+            "text-transform":"none"
+        }
+    },
+    "products_spacing": "20"
+}

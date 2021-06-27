@@ -1,0 +1,266 @@
+{
+  "data": [
+    {
+      "name": "_woodmart_open_categories",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Open categories menu",
+        "type": "select",
+        "values": [
+          {
+            "text": "Yes",
+            "value": true
+          },
+          {
+            "text": "No",
+            "value": false
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_title_off",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Disable Page title",
+        "type": "select",
+        "values": [
+          {
+            "text": "Yes",
+            "value": true
+          },
+          {
+            "text": "No",
+            "value": false
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_title_color",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Text color for title",
+        "type": "select",
+        "values": [
+          {
+            "text": "Inherit",
+            "value": "default"
+          },
+          {
+            "text": "Light",
+            "value": "light"
+          },
+          {
+            "text": "Dark",
+            "value": "dark"
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_page-title-size",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Page title size",
+        "type": "select",
+        "values": [
+          {
+            "text": "Inherit",
+            "value": "default"
+          },
+          {
+            "text": "Light",
+            "value": "light"
+          },
+          {
+            "text": "Small",
+            "value": "small"
+          },
+          {
+            "text": "Large",
+            "value": "large"
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_main_layout",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Sidebar position",
+        "type": "select",
+        "values": [
+          {
+            "text": "Inherit",
+            "value": "default"
+          },
+          {
+            "text": "Without",
+            "value": "full-width"
+          },
+          {
+            "text": "Left",
+            "value": "sidebar-left"
+          },
+          {
+            "text": "Right",
+            "value": "sidebar-right"
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_sidebar_width",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Sidebar size",
+        "type": "select",
+        "values": [
+          {
+            "text": "Inherit",
+            "value": "default"
+          },
+          {
+            "text": "Small",
+            "value": 2
+          },
+          {
+            "text": "Medium",
+            "value": 3
+          },
+          {
+            "text": "Large",
+            "value": 4
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_footer_off",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Disable footer",
+        "type": "select",
+        "values": [
+          {
+            "text": "Yes",
+            "value": true
+          },
+          {
+            "text": "No",
+            "value": false
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_prefooter_off",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Disable prefooter",
+        "type": "select",
+        "values": [
+          {
+            "text": "Yes",
+            "value": true
+          },
+          {
+            "text": "No",
+            "value": false
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    },
+    {
+      "name": "_woodmart_copyrights_off",
+      "type": [
+        "local"
+      ],
+      "group": "[XTemos] Settings",
+      "target": [
+        "archive",
+        "single"
+      ],
+      "gui": {
+        "display_name": "Disable copyrights",
+        "type": "select",
+        "values": [
+          {
+            "text": "Yes",
+            "value": true
+          },
+          {
+            "text": "No",
+            "value": false
+          }
+        ]
+      },
+      "default_value": "toolset_use_theme_setting"
+    }
+  ]
+}

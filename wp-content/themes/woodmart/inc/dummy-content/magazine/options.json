@@ -1,0 +1,37 @@
+{
+    "primary-color": "#bd8554",
+    "primary-font": {
+        "font-family": "Lora",
+        "font-weight": "400"
+    },
+    "text-font": {
+        "font-family": "Open Sans"
+    },
+    "navigation-font":{  
+        "font-family":"Lora",
+        "font-weight":"400"
+     },
+     "post-titles-font": {
+        "font-family": "Lora",
+        "font-weight":"400"
+    },
+    "widget-titles-font":{  
+        "font-family":"Lora",
+        "font-weight":"400"
+     },
+    "btns_shop_bg": "#bd8554",
+    "btns_accent_bg": "#bd8554",
+    "btns_shop_bg_hover": "#ad7c4c",
+    "btns_accent_bg_hover": "#ad7c4c",
+    "blog_design":"masonry",
+    "blog_columns":"3",
+    "single_post_design":"large_image",
+    "single_post_header":"header_899045",
+    "title-background":{
+        "background-color":"#F6F6F6"
+     },
+    "page-title-color":"dark",
+    "prefooter_area":"[html_block id=\"1550\"]",
+    "footer-layout": "1",
+    "disable_copyrights": ""
+}

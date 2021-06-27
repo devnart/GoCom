@@ -1,0 +1,10 @@
+{
+    "footer-bar-bg": {
+        "background-color": "#131313"
+    },
+    "footer-style": "light",
+    "sticky_footer": "yes",
+    "body-background": {
+        "background-color": "#000000"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "primary-color": "#f4a51c",
+    "primary-font": {
+        "font-family": "Cabin",
+        "font-weight": "600"
+    },
+    "text-font": {
+        "font-family": "Cabin",
+        "font-weight": "400"
+    },
+    "btns_default_style": "rounded",
+    "btns_accent_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_shop_bg": "#f4a51c",
+    "btns_accent_bg": "#f4a51c",
+    "btns_shop_bg_hover": "#DE961A",
+    "btns_accent_bg_hover": "#DE961A",
+    "post-titles-font": {
+        "font-family": "Cabin",
+        "font-weight": "600"
+    },
+    "secondary-font": {
+        "font-family": "Lato",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Cabin",
+        "font-weight": "600"
+    },
+    "navigation-font": {
+        "font-family": "Lato",
+        "font-weight": "700"
+    },
+    "form_fields_style": "rounded",
+    "label_shape": "rectangular",
+    "prefooter_area": "[html_block id=\"1742\"]",
+    "copyrights-layout": "centered",
+    "copyrights2": "",
+    "footer-bar-bg": {
+        "background-color": "#092143"
+    },
+    "footer-style": "light",
+    "footer-layout": "1",
+    "products_spacing": "20",
+    "advanced_typography": {
+        "0": {
+			"selector": ["product_category_title"],
+			"custom-selector": "",
+            "google": "0",
+            "font-size": "16"
+        }
+    }
+}

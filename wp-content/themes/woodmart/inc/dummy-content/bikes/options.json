@@ -1,0 +1,42 @@
+{
+    "primary-color": "#E83A3A",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2018\/07\/bike-footer-bg-dummy.jpg"
+    },
+    "primary-font": {
+        "font-family": "Cabin"
+    },
+    "post-titles-font": {
+        "font-family": "Cabin",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Cabin",
+        "font-weight": "600"
+    },
+    "btns_accent_bg": "#E83A3A",
+    "btns_accent_bg_hover": "#D23339",
+    "btns_shop_bg": "#E83A3A",
+    "btns_shop_bg_hover": "#D23339",
+    "text-font": {
+        "font-family": "Cabin"
+    },
+    "products_hover": "icons",
+    "header_banner": "yes",
+    "header_banner_bg": {
+        "background-color": "#E83A3A"
+    },
+    "header_close_btn": "yes",
+    "header_banner_shortcode": "<p style=\"text-align: center\">Summer 25% discount on all last year's bike models</p>",
+    "header_banner_color": "light",
+    "header_banner_link": "#",
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "products_spacing": "20"
+}

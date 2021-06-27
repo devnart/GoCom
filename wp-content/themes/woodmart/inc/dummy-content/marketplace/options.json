@@ -1,0 +1,30 @@
+{
+    "primary-color": "#DB3340",
+    "btns_accent_bg": "#D93143",
+    "btns_shop_bg": "#D93143",
+    "btns_shop_bg_hover": "#C42D3C",
+    "btns_accent_bg_hover": "#C42D3C",
+    "primary-font": {
+        "font-family": "Ubuntu"
+    },
+    "post-titles-font": {
+        "font-family": "Ubuntu"
+    },
+    "widget-titles-font": {
+        "font-family": "Ubuntu"
+    },
+    "label_shape": "rectangular",
+    "social_email": "",
+    "sticky_social": true,
+    "sticky_social_type": "follow",
+    "sticky_social_position": "right",
+    "header_banner": "1",
+    "header_banner_bg": {
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart-elementor\/demos\/wp-content\/uploads\/sites\/2\/2021\/03\/marketplace-top-banner.jpg"
+    },
+    "header_banner_link":"#",
+    "header_banner_shortcode":"<p style=\"text-align: center; text-transform: uppercase; color: white;\"><strong>Choose a product worth over <span class=\"color-primary\">$ 200<\/span> and save 20%.<\/strong><\/p>",
+    "header_banner_height":"40",
+    "header_banner_mobile_height": "50",
+    "products_spacing": "20"
+}

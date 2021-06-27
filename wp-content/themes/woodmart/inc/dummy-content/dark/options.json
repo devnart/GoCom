@@ -1,0 +1,17 @@
+{
+    "dark_version": true,
+    "primary-color": "#cb9500",
+    "btns_shop_bg": "#CB9500",
+    "btns_shop_bg_hover": "#c38f00",
+    "btns_accent_bg": "#CB9500",
+    "btns_accent_bg_hover": "#c38f00",
+    "footer-bar-bg": {
+        "background-color": "#1A1A1A"
+    },
+    "footer-style": "light",
+    "btns_default_bg": "#000000",
+    "btns_default_color_scheme": "light",
+    "btns_default_bg_hover": "#060606",
+    "btns_default_color_scheme_hover": "light",
+    "products_spacing": "20"
+}

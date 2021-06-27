@@ -1,0 +1,15 @@
+ {
+    "name": "Flowers slider",
+    "slug": "flowers-slider",
+    "meta": {
+        "stretch_slider": "on",
+        "height": 760,
+        "height_tablet": 500,
+        "height_mobile": 500,
+        "arrows_style": 1,
+        "pagination_style": 2,
+        "pagination_color": "light",
+        "autoplay": "off",
+        "animation": "slide"
+    }
+  }

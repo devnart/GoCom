@@ -1,0 +1,65 @@
+{
+    "primary-color": "#c3935b",
+    "primary-font": {
+        "font-family": "Marcellus SC",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "Lora",
+        "font-style": "italic"
+    },
+    "post-titles-font": {
+        "font-family": "Marcellus SC",
+        "font-weight": "400"
+    },
+    "text-font": {
+        "font-family": "Lora"
+    },
+    "btns_accent_bg": "#c3935b",
+    "btns_accent_bg_hover": "#A97F4F",
+    "btns_shop_bg": "#c3935b",
+    "btns_shop_bg_hover": "#A97F4F",
+    "products_hover": "icons",
+    "blog_style": "flat",
+    "widget-titles-font": {
+        "font-family": "Marcellus SC",
+        "font-weight": "400",
+        "font-size": "18"
+    },
+    "footer-bar-bg": {
+        "background-color": "#EAEAEA"
+    },
+    "navigation-font": {
+        "font-family": "Marcellus SC",
+        "font-weight": "400",
+        "font-size": "14"
+    },
+    "shop_hide_sidebar_desktop": true,
+    "pages-background": {
+        "background-color": "#f4f4f4",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "product-background": {
+        "background-color": "#F4F4F4"
+    },
+    "body-background": {
+        "background-color": "#f4f4f4"
+    },
+    "share_email": "",
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "form_border_width": "1",
+    "font_awesome_css": "always",
+    "products_spacing": "20"
+}

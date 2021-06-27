@@ -1,0 +1,49 @@
+{
+    "text-font": {
+        "font-family": "Inter",
+        "font-weight": "400",
+        "font-size": "14"
+    },
+    "primary-font": {
+        "font-family": "Yantramanav",
+        "font-weight": "500",
+        "text-transform":"none"
+    },
+    "post-titles-font": {
+        "font-family": "Yantramanav",
+        "font-weight": "500",
+        "text-transform":"none"
+    },
+    "widget-titles-font": {
+        "font-family": "Yantramanav",
+        "font-weight": "500",
+        "text-transform":"none"
+    },
+    "primary-color": "#d12c2c",
+    "btns_shop_bg": "#d12c2c",
+    "btns_shop_bg_hover": "#bf2828",
+    "btns_accent_bg": "#d12c2c",
+    "btns_accent_bg_hover": "#bf2828",
+    "footer-bar-bg": {
+        "background-color": "#373839",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": ""
+    },
+    "footer-style": "light",
+    "navigation-font": {
+        "font-family": "Inter",
+        "font-weight": "500",
+        "text-transform":"none"
+    },
+    "attr_after_short_desc": "yes",
+    "content_after_add_to_cart": "[html_block id=\"7517\"]",
+    "product_tabs_location": "summary",
+    "product_tabs_layout": "accordion",
+    "product_sticky": "yes",
+    "reviews_location": "separate",
+    "products_hover": "quick",
+    "product_quantity": true,
+    "products_spacing": "20"
+}

@@ -1,0 +1,33 @@
+{
+    "primary-font": {
+        "font-family": "Cabin"
+    },
+    "post-titles-font": {
+        "font-family": "Cabin"
+    },
+    "text-font": {
+        "font-family": "Cabin"
+    },
+    "widget-titles-font": {
+        "font-family": "Cabin",
+        "font-weight": "700"
+    },
+    "navigation-font": {
+        "font-family": "Cabin",
+        "font-weight": "700"
+    },
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "btns_shop_bg": "#52bd72",
+    "btns_shop_bg_hover": "#45a963",
+    "btns_accent_bg": "#52bd72",
+    "btns_accent_bg_hover": "#45a963",
+    "products_hover": "quick",
+    "categories_design": "center",
+    "primary-color": "#52bd72",
+    "page-title-size": "large",
+    "product_design": "alt",
+    "form_border_width": "1",
+    "products_spacing": "20"
+}

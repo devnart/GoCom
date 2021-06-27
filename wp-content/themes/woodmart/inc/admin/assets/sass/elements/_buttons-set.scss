@@ -1,0 +1,24 @@
+// ------------------------------------------
+// XTS BUTTONS SET
+// ------------------------------------------
+
+.xts-buttons-control {
+
+	&:not(.xts-images-set) {
+
+		.xts-btns-set-active {
+			@extend %xts-button-alternative;
+			cursor: default;
+			user-select: none;
+		}
+	}
+}
+
+.xts-btns-set {
+	display: flex;
+}
+
+.xts-set-btn {
+	@extend %xts-button;
+	@extend %xts-buttons-side-rounded;
+}

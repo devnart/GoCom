@@ -1,0 +1,15 @@
+ {
+    "name": "Basic slider",
+    "slug": "basic-slider",
+    "meta": {
+        "stretch_slider": "on",
+        "height": 700,
+        "height_tablet": 600,
+        "height_mobile": 500,
+        "arrows_style": 2,
+        "pagination_style": 1,
+        "pagination_color": "dark",
+        "autoplay": "on",
+        "animation": "slide"
+    }
+  }

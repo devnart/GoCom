@@ -1,0 +1,39 @@
+{
+    "pages-background": {
+        "background-color": "#101010"
+    },
+    "dark_version": "yes",
+    "primary-color": "#595ee0",
+    "primary-font": {
+        "font-family": "Montserrat"
+    },
+    "post-titles-font": {
+        "font-family": "Montserrat"
+    },
+    "text-font": {
+        "font-family": "Lato",
+        "font-weight": "400"
+    },
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center bottom",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2018\/04\/black-electronics-foo-bg.jpg"
+    },
+    "btns_shop_bg": "#5A5FDE",
+    "btns_accent_bg": "#5A5FDE",
+    "btns_shop_bg_hover": "#5257CB",
+    "btns_accent_bg_hover": "#5257CB",
+    "products_hover": "quick",
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "sticky_footer": "yes",
+    "btns_default_bg": "#171717",
+    "btns_default_color_scheme": "light",
+    "btns_default_bg_hover": "#191919",
+    "btns_default_color_scheme_hover": "light",
+    "products_spacing": "20"
+}

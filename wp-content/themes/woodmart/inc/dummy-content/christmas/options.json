@@ -1,0 +1,46 @@
+{
+    "primary-color": "#E15858",
+    "blog_style": "flat",
+    "primary-font": {
+        "font-family": "Roboto Slab"
+    },
+    "secondary-font": {
+        "font-family": "Dancing Script",
+        "font-weight": "700"
+    },
+    "prefooter_area": "[html_block id=\"1089\"]",
+    "secondary-color": "#a2a2a2",
+    "btns_accent_bg": "#dc4b4e",
+    "btns_accent_bg_hover": "#d24649",
+    "btns_shop_bg": "#DF575A",
+    "btns_shop_bg_hover": "#CC5053",
+    "products_hover": "icons",
+    "post-titles-font": {
+        "font-family": "Roboto Slab"
+    },
+    "page-title-size": "large",
+    "disable_footer": "",
+    "disable_copyrights": "",
+    "pages-background": {
+        "background-color": "#ECF2F7"
+    },
+    "shop-background": {
+        "background-color": "#ECF2F7"
+    },
+    "product-background": {
+        "background-color": "#ECF2F7"
+    },
+    "blog-background": {
+        "background-color": "#ECF2F7"
+    },
+    "blog-post-background": {
+        "background-color": "#ECF2F7"
+    },
+    "portfolio-background": {
+        "background-color": "#ECF2F7"
+    },
+    "portfolio-project-background": {
+        "background-color": "#ECF2F7"
+    },
+    "products_spacing": "20"
+}

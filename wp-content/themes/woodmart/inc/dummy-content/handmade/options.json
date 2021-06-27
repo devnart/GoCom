@@ -1,0 +1,31 @@
+{
+    "primary-color": "#7AB38B",
+    "primary-font": {
+        "font-family":"Lora",
+        "font-weight":"400"
+    },
+    "post-titles-font": {
+        "font-family":"Lora",
+        "font-weight":"400"
+    },
+    "navigation-font": {
+        "font-family": "Karla",
+        "font-size": "14",
+        "font-weight":"400"
+    },
+    "prefooter_area": "[html_block id=\"1381\"]",
+    "btns_accent_bg": "#79b38a",
+    "btns_shop_bg": "#79b38a",
+    "btns_accent_bg_hover": "#669b6b",
+    "btns_shop_bg_hover": "#669b6b",
+    "products_hover": "icons",
+    "blog_layout": "sidebar-right",
+    "blog_sidebar_width": "3",
+    "blog_design": "masonry",
+    "blog_columns": "3",
+    "blog_style": "flat",
+    "blog_excerpt": "excerpt",
+    "blog_words_or_letters": "letter",
+    "blog_excerpt_length": "135",
+    "products_spacing": "20"
+}

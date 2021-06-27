@@ -1,0 +1,15 @@
+ {
+    "name": "Dark slider",
+    "slug": "dark-slider",
+    "meta": {
+        "stretch_slider": "off",
+        "height": 495,
+        "height_tablet": 495,
+        "height_mobile": 495,
+        "arrows_style": 3,
+        "pagination_style": 1,
+        "pagination_color": "light",
+        "autoplay": "off",
+        "animation": "fade"
+    }
+  }

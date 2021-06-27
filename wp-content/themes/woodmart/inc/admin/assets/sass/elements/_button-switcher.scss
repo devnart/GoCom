@@ -1,0 +1,32 @@
+// ------------------------------------------
+// XTS BUTTON SWITHCER
+// ------------------------------------------
+
+.xts-switcher-btns {
+	display: flex;
+}
+
+.xts-switcher-btn {
+	@extend %xts-button;
+	@extend %xts-buttons-side-rounded;
+
+	&.xts-switcher-active {
+		color: #FFF;
+		cursor: default;
+		user-select: none;
+	}
+}
+
+.xts-switcher-on {
+
+	&.xts-switcher-active {
+		@extend %xts-button-alternative;
+	}
+}
+
+.xts-switcher-off {
+
+	&.xts-switcher-active {
+		background-color: #B1B1B0;
+	}
+}

@@ -1,0 +1,88 @@
+{
+    "primary-color": "#acc7bf",
+    "primary-font": {
+        "font-family": "Glaciall",
+        "font-weight": "400"
+    },
+    "text-font": {
+        "font-family": "Lato",
+        "font-weight": "400"
+    },
+    "post-titles-font": {
+        "font-family": "Glaciall",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Glaciall",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "Glaciall",
+        "font-weight": "400"
+    },
+    "btns_default_style": "flat",
+    "btns_accent_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_shop_bg": "#acc7bf",
+    "btns_accent_bg": "#acc7bf",
+    "btns_shop_bg_hover": "#9ebfb5",
+    "btns_accent_bg_hover": "#9ebfb5",
+    "blog_excerpt_length": "100",
+    "form_fields_style": "underlined",
+    "form_border_width": "1",
+    "footer-style": "dark",
+    "footer-layout": "1",
+    "prefooter_area": "[html_block id=\"2009\"]",
+    "products_columns": "5",
+    "shop_filters": "yes",
+    "shop_layout": "full-width",
+    "shop_per_page": "15",
+    "products_columns_variations": [
+        "3",
+        "4",
+        "5",
+        "6"
+    ],
+    "products_hover": "quick",
+    "header_banner": "yes",
+    "header_banner_bg": {
+        "background-color": "#9ebfb5"
+    },
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Glaciall",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "2609"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2019"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2017"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2016"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2015"
+            }
+        }
+    },
+    "header_close_btn": "yes",
+    "header_banner_shortcode": "<p style=\"text-align: center; color: white;\">Summer 25% discount on all last year's products home decor<\/p>",
+    "header_banner_color": "light",
+    "header_banner_link": "#",
+    "shop_filters_close": "yes",
+    "page-title-size": "large",
+    "single_product_header": "header_841375",
+    "header_banner_height":"40",
+    "header_banner_mobile_height": "50",
+    "shop_view": "grid",
+    "products_spacing": "30"
+}

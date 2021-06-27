@@ -1,0 +1,15 @@
+ {
+    "name": "Bike slider",
+    "slug": "bike-slider",
+    "meta": {
+        "stretch_slider": "on",
+        "height": 750,
+        "height_tablet": 500,
+        "height_mobile": 500,
+        "arrows_style": 1,
+        "pagination_style": 0,
+        "pagination_color": "light",
+        "autoplay": "on",
+        "animation": "slide"
+    }
+  }

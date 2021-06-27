@@ -1,0 +1,41 @@
+{
+    "primary-color": "#ff9933",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2018\/10\/motorcycle-footer-bg.jpg"
+    },
+    "primary-font": {
+        "font-family": "Hind",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "Hind",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Hind",
+        "font-weight": "600"
+    },
+    "btns_accent_bg": "#ff9933",
+    "btns_accent_bg_hover": "#E98C2F",
+    "btns_shop_bg": "#ff9933",
+    "btns_shop_bg_hover": "#E98C2F",
+    "text-font": {
+        "font-family": "Karla"
+    },
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_accent_style": "semi-rounded",
+    "form_fields_style": "semi-rounded",
+    "navigation-font": {
+        "font-family": "Hind",
+        "font-weight": "500",
+        "font-size": "13"
+    },
+    "products_hover": "quick",
+    "products_spacing": "20"
+}

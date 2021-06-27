@@ -1,0 +1,53 @@
+// ------------------------------------------------------------------------------------
+// TEXT EDITOR
+// ------------------------------------------------------------------------------------
+
+.xts-options {
+
+	.wp-editor-container {
+		border-radius: $xts-option-border-radius 0 $xts-option-border-radius $xts-option-border-radius;
+	}
+
+	.quicktags-toolbar {
+		border-top-left-radius: $xts-option-border-radius;
+	}
+
+	.wp-media-buttons {
+
+		.button {
+			@extend %xts-button;
+			height: 30px;
+			line-height: 30px;
+
+			&:active {
+				position: static;
+				margin: 0;
+			}
+		}
+	}
+
+	.wp-media-buttons-icon {
+
+		&:before {
+			display: block;
+		}
+	}
+
+	.wp-switch-editor {
+		border-radius: $xts-option-border-radius $xts-option-border-radius 0 0;
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+	}
+
+	.mce-top-part::before,
+	.wp-editor-container,
+	.mce-tinymce {
+		box-shadow: none;
+	}
+
+	::-webkit-input-placeholder {color:rgba(0,0,0,0.4)}
+	::-moz-placeholder			{color:rgba(0,0,0,0.4)}
+	:-moz-placeholder			{color:rgba(0,0,0,0.4)}
+	:-ms-input-placeholder		{color:rgba(0,0,0,0.4)}
+}

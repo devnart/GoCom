@@ -1,0 +1,27 @@
+{
+    "secondary-font": {
+        "font-family": "Satisfy"
+    },
+    "primary-font": {
+        "font-family": "Lato"
+    },
+    "post-titles-font": {
+        "font-family": "Lato",
+        "font-weight": "700"
+    },
+    "widget-titles-font": {
+        "font-family": "Lato"
+    },
+    "primary-color": "#7BBBDD",
+    "btns_shop_style": "flat",
+    "btns_shop_bg": "#7BBBDD",
+    "btns_shop_bg_hover": "#67a7ca",
+    "btns_accent_bg": "#7BBBDD",
+    "btns_accent_bg_hover": "",
+    "form_border_width": "1",
+    "products_hover": "quick",
+    "categories_design": "center",
+    "product_design": "alt",
+    "product_sticky": "yes",
+    "products_spacing": "20"
+}

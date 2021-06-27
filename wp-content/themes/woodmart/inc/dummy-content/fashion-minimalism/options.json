@@ -1,0 +1,215 @@
+{
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "1621"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1622"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1607"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1604"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1608"
+            }
+        },
+        "2": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "500",
+            "font-woff": {
+                "url": "",
+                "id": "1619"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1620"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1609"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1605"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1610"
+            }
+        },
+        "3": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "1623"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1624"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1625"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1606"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1626"
+            }
+        },
+        "4": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "300",
+            "font-woff": {
+                "url": "",
+                "id": "2641"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2642"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2640"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2644"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2643"
+            }
+        }
+    },
+    "text-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "400",
+        "font-size": "16"
+    },
+    "primary-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "500"
+    },
+    "post-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "500"
+    },
+    "widget-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "500"
+    },
+    "navigation-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "500",
+        "font-size": "15",
+        "text-transform": "capitalize"
+    },
+    "primary-color": "#333333",
+    "secondary-color": "#333333",    
+    "btns_shop_bg": "#333333",
+    "btns_shop_bg_hover": "#000000",
+    "btns_accent_bg": "#333333",
+    "btns_accent_bg_hover": "#000000",    
+    "site_width": "custom",
+    "site_custom_width": "1400",
+    "categories_with_shadow": "disable",
+    "categories_design": "default",
+    "blog_style": "flat",
+    "footer-bar-bg": {
+        "background-color": "#fbfbfb"
+    },
+    "header_banner": "yes",
+    "header_banner_bg": {
+        "background-color": "#f1f6f2"
+    },
+    "header_close_btn": "yes",
+    "header_banner_shortcode": "<p style=\"text-align: center; color: #769468; font-weight: 500;\">Summer 25% discount on all last year's products home fashiom minimalism<\/p>",
+    "header_banner_color": "dark",
+    "header_banner_link": "#",
+    "header_banner_height": "40",
+    "header_banner_mobile_height": "60",
+    "products_columns": "5",
+    "shop_layout": "full-width",
+    "products_hover": "alt",
+    "page-title-size": "small",
+    "shop_filters": "yes",
+    "shop_per_page": "15",
+    "per_page_options": "15,20,35",
+    "advanced_typography": [
+        {
+            "custom": "",
+            "custom-selector": "",
+            "selector": [
+                "product_category_title"
+            ],
+            "font-size": "32",
+            "text-transform": "capitalize",
+            "font-weight": "300",
+            "tablet": {
+                "font-size": "22",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            }
+        },
+        {
+            "custom": "",
+            "custom-selector": "",
+            "selector": [
+                "product_title"
+            ],
+            "font-size": "16",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            }
+        },
+        {
+            "custom": "",
+            "custom-selector": "",
+            "selector": [
+                "blog_title"
+            ],
+            "font-size": "22",
+            "tablet": {
+                "font-size": "20",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "18",
+                "line-height": ""
+            }
+        }
+    ],
+    "products_columns_variations": [
+        "3",
+        "4",
+        "5"
+    ],
+    "shop_filters_close": "yes",
+    "shop_title": "0",
+    "rev_slider_inherit_theme_font":"1",
+    "products_spacing": "20"
+}

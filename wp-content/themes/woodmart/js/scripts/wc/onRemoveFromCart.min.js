@@ -1,0 +1,1 @@
+!function(a){woodmartThemeModule.onRemoveFromCart=function(){"no"!==woodmart_settings.woocommerce_ajax_add_to_cart&&woodmartThemeModule.$document.on("click",".widget_shopping_cart .remove",function(b){b.preventDefault(),a(this).parent().addClass("removing-process")})},a(document).ready(function(){woodmartThemeModule.onRemoveFromCart()})}(jQuery);

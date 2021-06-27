@@ -1,0 +1,10 @@
+{
+    "sticky_footer": "yes",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "#000000"
+    },
+    "secondary-font": {
+        "font-family": "Satisfy"
+    }
+}

@@ -1,0 +1,279 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">cms_block</custom-type>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="0">woodmart_sidebar</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">categories</taxonomy>
+        <taxonomy translate="1">project-cat</taxonomy>
+        <taxonomy translate="1">tag</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="whb_main_header"/>
+        <key name="xts-woodmart-options">
+            <key name="popup_text"/>
+            <key name="reg_text"/>
+            <key name="login_text"/>
+            <key name="cookies_text"/>
+            <key name="empty_cart_text"/>
+            <key name="copyrights"/>
+            <key name="copyrights2"/>
+            <key name="prefooter_area"/>
+            <key name="content_before_add_to_cart"/>
+            <key name="content_after_add_to_cart"/>
+            <key name="additional_tab_title"/>
+            <key name="additional_tab_text"/>
+            <key name="single_product_header"/>
+            <key name="empty_compare_text"/>
+            <key name="reg_title"/>
+            <key name="login_title"/>
+            <key name="header_banner_shortcode"/>
+            <key name="grid_swatches_attribute"/>
+            <key name="wishlist_empty_text"/>
+            <key name="thank_you_page_extra_content"/>
+            <key name="link_1_text"/>
+            <key name="link_2_text"/>
+            <key name="link_3_text"/>
+            <key name="age_verify_text"/>
+            <key name="age_verify_text_error"/>
+        </key>
+    </admin-texts>
+    <custom-fields>
+        <custom-field action="translate" label="Extra content">_woodmart_extra_content</custom-field>
+        <custom-field action="translate" label="Custom tab title">_woodmart_product_custom_tab_title</custom-field>
+        <custom-field action="translate" label="Custom tab content">_woodmart_product_custom_tab_content</custom-field>
+    </custom-fields>
+    <shortcodes>
+        <shortcode>
+            <tag>woodmart_3d_view</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>author_area</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>author_name</attribute>
+                <attribute>content</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+                <attribute>link_text</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_button</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_brands</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_categories</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_counter</tag>
+            <attributes>
+                <attribute>label</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>extra_menu</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+                <attribute>label_text</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>extra_menu_list</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+                <attribute>label_text</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_google_map</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>marker_text</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_info_box</tag>
+            <attributes>
+                <attribute>icon_text</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+                <attribute>btn_text</attribute>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_instagram</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_mega_menu</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_menu_price</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>description</attribute>
+                <attribute>price</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_portfolio</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>pricing_plan</tag>
+            <attributes>
+                <attribute>name</attribute>
+                <attribute>price_value</attribute>
+                <attribute>price_suffix</attribute>
+                <attribute>currency</attribute>
+                <attribute>features_list</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+                <attribute>button_label</attribute>
+                <attribute>label</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>products_tabs</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>products_tab</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_shortcode_products_widget</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_products</tag>
+            <attributes>
+                <attribute>element_title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>promo_banner</tag>
+            <attributes>
+                <attribute>btn_text</attribute>
+                <attribute type="link" encoding="vc_link">link</attribute>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_responsive_text_block</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>team_member</tag>
+            <attributes>
+                <attribute>name</attribute>
+                <attribute>position</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>testimonials</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>testimonial</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>content</attribute>
+                <attribute>name</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_timeline_item</tag>
+            <attributes>
+                <attribute>title_primary</attribute>
+                <attribute>content</attribute>
+                <attribute>title_secondary</attribute>
+                <attribute>content_secondary</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_timeline_breakpoint</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>woodmart_title</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>after_title</attribute>
+            </attributes>
+        </shortcode>
+
+    </shortcodes>
+</wpml-config>
+
+

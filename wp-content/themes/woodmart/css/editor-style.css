@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6,
+.title {
+  color: #1B1919;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 12px;
+}

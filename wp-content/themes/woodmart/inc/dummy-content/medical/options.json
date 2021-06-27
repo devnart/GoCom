@@ -1,0 +1,77 @@
+{
+    "text-font": {
+        "font-family": "Inter",
+        "font-weight": "400",
+        "font-size": "14"
+    },
+    "primary-font": {
+        "font-family": "Yantramanav",
+        "font-weight": "500"
+    },
+    "post-titles-font": {
+        "font-family": "Yantramanav",
+        "font-weight": "500"
+    },
+    "widget-titles-font": {
+        "font-family": "Yantramanav",
+        "font-weight": "500"
+    },
+    "navigation-font": {
+        "font-family": "Inter",
+        "font-weight": "500"
+    },
+    "primary-color": "#29c093",
+    "btns_shop_bg": "#29c093",
+    "btns_shop_bg_hover": "#25b188",
+    "btns_accent_bg": "#29c093",
+    "btns_accent_bg_hover": "#25b188",
+    "pages-background": {
+        "background-color": "#f9f9f9"
+    },
+    "footer-bar-bg": {
+        "background-color": "#2d9cda"
+    },
+    "footer-style": "light",
+    "header_banner": "yes",
+    "header_banner_bg": {
+        "background-color": "#29c093"
+    },
+    "label_shape": "rectangular",
+    "header_close_btn": "yes",
+    "header_banner_height": "40",
+    "header_banner_mobile_height": "40",
+    "header_banner_shortcode": "<p style=\"text-align: center\">&#x1f3e0; Stay at home! 25% discount on all medicines</p>",
+    "header_banner_link": "#",
+    "header_banner_color": "light",
+    "rev_slider_inherit_theme_font": "yes",
+    "products_columns_mobile": "1",
+    "products_spacing": "20",
+    "advanced_typography": [
+        {
+            "custom": "",
+            "selector": [
+                "product_title"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "20",
+            "tablet": {
+                "font-size": "18",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "16",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    ]
+}

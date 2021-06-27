@@ -1,0 +1,16 @@
+{
+	"name": "Best sellers",
+	"slug": "best-sellers",
+	"meta": {
+		"stretch_slider": "on",
+		"height": 490,
+		"height_tablet": 490,
+		"height_mobile": 730,
+		"arrows_style": 1,
+		"pagination_style": 1,
+		"pagination_color": "light",
+		"autoplay": "off",
+		"scroll_carousel_init": "on",
+		"animation": "slide"
+	}
+}

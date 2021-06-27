@@ -1,0 +1,38 @@
+// ------------------------------------------------------------------------------------------------
+// SLIDE EDIT PAGE
+// ------------------------------------------------------------------------------------------------
+
+.post-type-woodmart_slide {
+
+ 
+	.term-parent-wrap,
+	.term-description-wrap {
+		display: none;
+	}
+	
+	// .description {
+	// 	width: 95%;
+	// }
+
+	.xts-sections {
+		padding-top: 30px;
+	}
+
+	.xts-range-control {
+		flex-wrap: wrap;
+
+		.xts-option-title {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			width: 100%;
+			border-bottom: 0;
+		}
+	}
+
+	// .xts-metaboxes {
+	// 	margin-top: -7px;
+	// 	margin-right: -12px;
+	// 	margin-bottom: -12px;
+	// 	margin-left: -12px;
+	// }
+}

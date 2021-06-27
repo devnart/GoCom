@@ -1,0 +1,203 @@
+// ------------------------------------------------------------------------------------------------
+// ELEMENT ICONS
+// ------------------------------------------------------------------------------------------------
+
+.elementor-element {
+
+	[class*="wd-icon-"] {
+
+		&:before {
+			content: "";
+			line-height: 1;
+			display: block;
+			height: 32px;
+			width: 32px;
+			margin-top: -2px;
+			margin-bottom: -2px;
+			margin-left: auto;
+			margin-right: auto;
+			background-position: 0;
+			background-size: cover;
+		}
+	}
+}
+
+.elementor-element-edit-mode {
+	
+	[class*="wd-icon-"] {
+
+		&:before {
+			height: 24px;
+			width: 24px;
+			opacity: .5;
+		}
+	}
+}
+
+.wd-icon-title:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/section-title.svg);
+}
+
+.wd-icon-product-categories:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/product-categories.svg);
+}
+
+.wd-icon-product-brands:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/brands.svg);
+}
+
+.wd-icon-images-gallery:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/images-gallery.svg);
+}
+
+.wd-icon-slider:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/slider.svg);
+}
+
+.wd-icon-extra-menu-list:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/extra-menu-list.svg);
+}
+
+.wd-icon-3d-view:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/360-degree.svg);
+}
+
+.wd-icon-search:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ajax-search.svg);
+}
+
+.wd-icon-counter:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/animated-counter.svg);
+}
+
+.wd-icon-author-area:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/author-area.svg);
+}
+
+.wd-icon-countdown:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/countdown-timer.svg);
+}
+
+.wd-icon-wishlist:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/wishlist.svg);
+}
+
+.wd-icon-compare:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/compare.svg);
+}
+
+.wd-icon-widget-products:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/wc-product-widget.svg);
+}
+
+.wd-icon-list:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/list.svg);
+}
+
+.wd-icon-twitter:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/twitter.svg);
+}
+
+.wd-icon-social:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/social-buttons.svg);
+}
+
+.wd-icon-team-member:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/team-member.svg);
+}
+
+.wd-icon-testimonials:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/testimonials.svg);
+}
+
+.wd-icon-mega-menu:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/mega-menu-widget.svg);
+}
+
+.wd-icon-menu-price:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/menu-price.svg);
+}
+
+.wd-icon-popup:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/popup.svg);
+}
+
+.wd-icon-pricing-tables:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/pricing-tables.svg);
+}
+
+.wd-icon-timeline:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/timeline.svg);
+}
+
+.wd-icon-google-map:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/google-maps.svg);
+}
+
+.wd-icon-product-filters:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/product-filter.svg);
+}
+
+.wd-icon-hotspot:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/image-map.svg);
+}
+
+.wd-icon-contact-form-7:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/360-degree.svg);
+}
+
+.wd-icon-button:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/button.svg);
+}
+
+.wd-icon-products:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/products-grid-or-carousel.svg);
+}
+
+.wd-icon-product-tabs:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ajax-products-tabs.svg);
+}
+
+.wd-icon-blog:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/blog.svg);
+}
+
+.wd-icon-banner:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/promo-banner.svg);
+}
+
+.wd-icon-banner-carousel:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/banners-carousel.svg);
+}
+
+.wd-icon-infobox:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/information-box.svg);
+}
+
+.wd-icon-infobox-carousel:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/infobox-slider.svg);
+}
+
+.wd-icon-instagram:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/instagram.svg);
+}
+
+.wd-icon-portfolio:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/portfolio.svg);
+}
+
+.wd-icon-contact-form-7:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/contact-form7.svg);
+}
+
+.wd-icon-mailchimp:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/mailchimp.svg);
+}
+
+.wd-icon-size-guide:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/size-guide.svg);
+}
+
+.wd-icon-menu-anchor:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/menu-anchor.svg);
+}

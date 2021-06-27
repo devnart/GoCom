@@ -1,0 +1,15 @@
+ {
+    "name": "Coffee slider",
+    "slug": "coffee-slider",
+    "meta": {
+        "stretch_slider": "on",
+        "height": 820,
+        "height_tablet": 620,
+        "height_mobile": 420,
+        "arrows_style": 1,
+        "pagination_style": 1,
+        "pagination_color": "dark",
+        "autoplay": "on",
+        "animation": "slide"
+    }
+  }

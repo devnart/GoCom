@@ -1,0 +1,27 @@
+// ------------------------------------------------------------------------------------------------
+// DIMENSIONS CONTROL
+// ------------------------------------------------------------------------------------------------
+
+.xts-image_dimensions-control {
+	align-items: flex-end;
+	flex-wrap: wrap;
+
+	&:not(.xts-hidden) {
+		display: flex;
+	}
+
+	label,
+	.xts-field-description {
+		width: 100%;
+	}
+
+	.xts-image-dimensions-field {
+		width: ($xts-input-width / 2) - 15px;
+	}
+
+	.xts-image-dimensions-separator {
+		margin-bottom: 10px;
+		width: 30px;
+		text-align: center;
+	}
+}

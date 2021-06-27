@@ -1,0 +1,91 @@
+<svg id="timeline_item" data-name="timeline item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.995" height="31.995" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1d;
+      }
+
+      .cls-2 {
+        opacity: 0.05;
+        filter: url(#filter);
+      }
+
+      .cls-3 {
+        filter: url(#filter-2);
+      }
+
+      .cls-4 {
+        fill: #7b7b7b;
+      }
+
+      .cls-4, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        filter: url(#filter-3);
+      }
+
+      .cls-6 {
+        fill: #010101;
+      }
+
+      .cls-7, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-9 {
+        font-size: 16px;
+        text-anchor: middle;
+        font-family: "Open Sans";
+        font-weight: 700;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="23.5" y="18.059999999999945" width="107.25" height="106.5" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTA3LjI1IiBoZWlnaHQ9IjEwNi41IiB2aWV3Qm94PSIwIDAgMTA3LjI1IDEwNi41Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI3JhZGlhbC1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9InJhZGlhbC1ncmFkaWVudCIgY3g9IjUzLjYyNSIgY3k9IjUzLjI1IiByPSI1OC4yODkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNTY1NjU2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41MSIgc3RvcC1jb2xvcj0iIzZlNmU2ZSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzYiIHN0b3AtY29sb3I9IiM4YjhiOGIiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjEwNy4yNSIgaGVpZ2h0PSIxMDYuNSIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="14" y="14" width="121" height="120" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTIxIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMSAxMjAiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjcmFkaWFsLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0icmFkaWFsLWdyYWRpZW50IiBjeD0iNjAuNSIgY3k9IjYwIiByPSI2NS42NzgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjOGI4YjhiIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4xNjEiIHN0b3AtY29sb3I9IiM2ZTZlNmUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjQ5IiBzdG9wLWNvbG9yPSIjNDM0MzQzIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIxMjEiIGhlaWdodD0iMTIwIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="back">
+    <rect id="back-form" class="cls-1" width="150" height="150" rx="20" ry="20"/>
+    <g id="logo" class="cls-2">
+      <g id="Down" class="cls-3">
+        <path id="fg-2_1" class="cls-4" d="M1690.31,1357.64c4.87,5.03,3.59,6.3-14.35,5.62s-45.2,26.99-61.19,44.09-20.07,35.3-18.77,37.65c-20.12,1.18-6.51-27.57,10.6-46.9,19.39-19.38,54.89-55.44,69-41.73S1685.44,1352.6,1690.31,1357.64Z" transform="translate(-1562 -1329)"/>
+        <path id="fg-2" class="cls-4" d="M1590.95,1349.49c5.04-4.85,6.31-3.57,5.64,14.34s27.03,45.16,44.15,61.15,35.06,19.82,37.4,18.52c1.19,20.1-27.3,6.73-46.65-10.37-19.4-19.38-56.75-55.79-43.05-69.87S1585.92,1354.35,1590.95,1349.49Z" transform="translate(-1562 -1329)"/>
+      </g>
+      <g id="up" class="cls-5">
+        <path id="fg1_1" class="cls-6" d="M1610.77,1393.92a10.093,10.093,0,0,1-1.27-1.27,6.578,6.578,0,0,1-.54-1.27c7.18-7.17,21.26-20.33,26.33-25.22,11.38-10.44,45.55-31.78,57.93-19.41s-8.12,44.84-25.97,63.69c-31.94,36.49-74.35,62.16-87.71,48.81s15.23-51.51,19.43-55.71,3.63,0.73,3.63.73-23.65,27.53-12.71,38.46,52.92-29.29,68.28-44.63c11.27-13.24,28.25-30.2,17.07-41.37s-41.22,16.51-41.22,16.51S1610.98,1394.13,1610.77,1393.92Z" transform="translate(-1562 -1329)"/>
+        <path id="fg-1" class="cls-6" d="M1608,1413s22.22,21.95,27.29,26.83c11.38,10.44,45.54,31.79,57.92,19.42s-8.13-44.83-25.98-63.68c-31.94-36.49-74.34-62.16-87.7-48.81s15.24,51.5,19.44,55.69,5.12-.36,4.03-1.45-24.05-26.81-13.12-37.73,52.92,29.29,68.28,44.64c11.27,13.23,26.79,31.65,17.07,41.36s-36.86-12.52-36.86-12.52-12.39-11.2-20.37-18.75c-3.85-3.64-6.43-6.68-7-7C1610.97,1410.98,1608,1413,1608,1413Z" transform="translate(-1562 -1329)"/>
+      </g>
+    </g>
+  </g>
+  <g id="icon">
+    <g id="line">
+      <rect id="Прямоугольник_1274" data-name="Прямоугольник 1274" class="cls-7" x="130" y="24" width="2" height="102"/>
+      <circle id="Эллипс_1305" data-name="Эллипс 1305" class="cls-7" cx="131" cy="75" r="9"/>
+    </g>
+    <g id="left-item">
+      <rect id="Прямоугольник_1255" data-name="Прямоугольник 1255" class="cls-8" x="10" y="48" width="107" height="55"/>
+      <rect id="Прямоугольник_1257_копия" data-name="Прямоугольник 1257 копия" class="cls-7" x="22" y="74" width="64" height="6"/>
+      <rect id="Прямоугольник_1257_копия_2" data-name="Прямоугольник 1257 копия 2" class="cls-7" x="22" y="86" width="75" height="6"/>
+      <text id="Item" class="cls-9" x="39.724" y="67.073">Item</text>
+    </g>
+  </g>
+</svg>

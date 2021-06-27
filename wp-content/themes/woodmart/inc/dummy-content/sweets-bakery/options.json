@@ -1,0 +1,174 @@
+{
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Jost",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "2544"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2541"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2543"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2542"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2540"
+            }
+        },
+        "2": {
+            "font-name": "Jost",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "2548"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2549"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2547"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2546"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2545"
+            }
+        },
+        "3": {
+            "font-name": "Jost",
+            "font-weight": "500",
+            "font-woff": {
+                "url": "",
+                "id": "2554"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2551"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2553"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2552"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2550"
+            }
+        }
+    },
+    "text-font": {
+        "font-family": "Jost",
+        "font-weight": "400",
+        "font-size": "16"
+    },
+    "primary-font": {
+        "font-family": "Jost",
+        "font-weight": "500"
+    },
+    "post-titles-font": {
+        "font-family": "Jost",
+        "font-weight": "500"
+    },
+    "secondary-font": {
+        "font-family": "Cookie",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Jost",
+        "font-weight": "500"
+    },
+    "navigation-font": {
+        "font-family": "Jost",
+        "font-weight": "600"
+    },
+    "primary-color": "#fd4680",
+    "secondary-color": "#fd4680",
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_accent_style": "",
+    "btns_shop_bg": "#fd4680",
+    "btns_shop_bg_hover": "#c01157",
+    "btns_accent_bg": "#fd4680",
+    "btns_accent_bg_hover": "#c01157",
+    "form_fields_style": "square",
+    "form_border_width": "1",
+    "footer-bar-bg": {
+        "background-color": "#f4f8fb"
+    },
+    "advanced_typography": [
+        {
+            "custom": "",
+            "selector": [
+                "product_title"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "24",
+            "tablet": {
+                "font-size": "18",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "12",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        {
+            "custom": "",
+            "selector": [
+                "product_price"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "22",
+            "tablet": {
+                "font-size": "16",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "14",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "#fd4680",
+            "hover": {
+                "color": ""
+            }
+        }
+    ],
+    "sticky_toolbar": "",
+    "single_product_header": "header_234607",    
+    "products_columns_mobile": "1",
+    "rev_slider_inherit_theme_font":"1",
+    "products_spacing": "20"
+}

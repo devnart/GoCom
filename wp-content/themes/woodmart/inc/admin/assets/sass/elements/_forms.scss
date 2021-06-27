@@ -1,0 +1,107 @@
+// ------------------------------------------------------------------------------------
+// FORMS
+// ------------------------------------------------------------------------------------
+
+.xts-dashboard {
+	
+	select,
+	textarea,
+	input[type="text"],
+	input[type="number"] {
+		padding: 5px 8px;
+		width: 100%;
+		outline: none;
+		border-color: $xts-option-border-color;
+		border-radius: $xts-option-border-radius;
+		box-shadow: none;
+		transition: .2s border-color ease-in-out;
+
+		&:hover {
+			border-color: darken($xts-option-border-color,8%);
+		}
+
+		&:focus {
+			border-color: $xts-color-primary;
+			box-shadow: none;
+		}
+
+		&:disabled {
+			pointer-events: none;
+		}
+	}
+
+	select,
+	input[type="text"],
+	input[type="number"] {
+		margin: 0;
+		max-width: $xts-input-width;
+		height: $xts-option-input-height;
+		line-height: 1;
+	}
+	
+	textarea {
+		min-height: 150px;
+	}
+
+	select {
+		
+		&:hover {
+			color: #2c3338;
+		}
+	}
+
+	// ------------------------------------------
+	// XTS NUMBER PIXEL INPUT
+	// ------------------------------------------
+
+	.input-append {
+		display: flex;
+	
+		input[type="number"] {
+			height: $xts-option-input-height;
+			max-width: 65px;
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+	}
+	
+	.add-on {
+		width: 30px;
+		text-align: center;
+		height: $xts-option-input-height;
+		line-height: $xts-option-input-height - 3px;
+		border: 1px solid $xts-option-border-color;
+		border-top-right-radius: $xts-option-border-radius;
+		border-bottom-right-radius: $xts-option-border-radius;
+		border-left: 0;
+		background-color: $xts-color-default;
+		font-weight: 600;
+	}
+
+	.xts-insta-form-wrap {
+		
+		&:not(:first-child) {
+			margin-top: 10px;
+		}
+	}
+
+	.xts-insta-option {
+		margin-bottom: 15px;
+	}
+
+	.xts-insta-message-section {
+		margin-top: 15px;
+		max-width: $xts-input-width;
+
+		&:empty {
+			display: none;
+		}
+	}
+
+	.rtl & {
+
+		.input-append {
+			flex-direction: row-reverse;
+		}
+	}
+}

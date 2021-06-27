@@ -1,0 +1,44 @@
+{
+    "primary-color": "#ac4455",
+    "primary-font": {
+        "font-family": "Playfair Display",
+        "font-weight": "400"
+    },
+    "text-font": {
+        "font-family": "Lato",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "Lato",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Lora",
+        "font-weight": "400"
+    },
+    "navigation-font": {
+        "font-family": "Lato",
+        "font-weight": "700"
+    },
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "btns_shop_bg": "#ac4455",
+    "btns_accent_bg": "#ac4455",
+    "btns_shop_bg_hover": "#9d3e4d",
+    "btns_accent_bg_hover": "#aa2e42",
+    "post-titles-font": {
+        "font-family": "Lora",
+        "font-weight": "400"
+    },
+    "footer-layout": "1",
+    "disable_copyrights": "",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center bottom",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2018\/08\/wine-bg-top.jpg"
+    },
+    "products_spacing": "20"
+}

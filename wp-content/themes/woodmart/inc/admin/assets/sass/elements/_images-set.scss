@@ -1,0 +1,105 @@
+// ------------------------------------------
+// XTS IMAGES SET
+// ------------------------------------------
+
+.xts-images-set {
+
+	.xts-btns-set {
+		flex-wrap: wrap;
+		margin-left: -$xts-option-space / 2;
+		margin-right: -$xts-option-space / 2;
+		margin-bottom: -$xts-option-space;
+	}
+}
+
+.xts-set-btn-img {
+	position: relative;
+	padding-left: $xts-option-space / 2;
+	padding-right: $xts-option-space / 2;
+	margin-bottom: $xts-option-space;
+	flex-basis: 25%;
+
+	img {
+		display: block;
+		width: 100%;
+		border-style: solid;
+		border-width: 3px;
+		border-color: $xts-option-border-color;
+		border-radius: $xts-option-border-radius;
+		-webkit-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+	}
+
+	span {
+		display: block;
+		margin-top: 5px;
+	}
+
+	&.xts-btns-set-active {
+
+		&:after {
+			content: "\f147";
+			font-family: dashicons;
+			position: absolute;
+			display: block;
+			padding-left: 2px;
+			padding-top: 1px;
+			padding-right: 4px;
+			border-radius: 50%;
+			background-color: $xts-color-primary;
+			top: -5px;
+			right: 0;
+			z-index: 15;
+			color: #FFF;
+			text-align: center;
+		}
+	}
+
+	&:hover {
+
+		img {
+			border-color: darken($xts-option-border-color,15%);
+			cursor: pointer;
+		}
+	}
+
+	&:active,
+	&.xts-btns-set-active {
+
+		img {
+			border-color: $xts-color-primary;
+		}
+	}
+
+	.xts-portoflio_style-field &,
+	.xts-products_hover-field &,
+	.xts-categories_design-field & {
+
+		img {
+			padding: 10px;
+		}
+	}
+
+	.rtl & {
+
+		&.xts-btns-set-active {
+
+			&:after {
+				left: 0;
+				right: auto;
+			}
+		}
+	}
+
+	.xts-form_fields_style-field & {
+		flex-basis: 25%;
+	}
+
+	[class*="xts-btns_"] & {
+		flex-basis: 150px;
+	}
+
+	.xts-label_shape-field & {
+		flex-basis: 100px;
+	}
+}

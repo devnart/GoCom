@@ -1,0 +1,15 @@
+ {
+    "name": "Infinite scrolling slider",
+    "slug": "infinite-scrolling-slider",
+    "meta": {
+        "stretch_slider": "off",
+        "height": 550,
+        "height_tablet": 400,
+        "height_mobile": 280,
+        "arrows_style": 1,
+        "pagination_style": 2,
+        "pagination_color": "dark",
+        "autoplay": "off",
+        "animation": "slide"
+    }
+  }

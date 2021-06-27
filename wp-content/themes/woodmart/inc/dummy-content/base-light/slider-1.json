@@ -1,0 +1,15 @@
+ {
+    "name": "Base light slider",
+    "slug": "base-light-slider",
+    "meta": {
+        "stretch_slider": "on",
+        "height": 495,
+        "height_tablet": 435,
+        "height_mobile": 375,
+        "arrows_style": 2,
+        "pagination_style": 1,
+        "pagination_color": "dark",
+        "autoplay": "off",
+        "animation": "slide"
+    }
+  }

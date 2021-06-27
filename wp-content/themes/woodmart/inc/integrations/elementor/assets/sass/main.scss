@@ -1,0 +1,272 @@
+// ------------------------------------------------------------------------------------------------
+// BASE STYLE
+// ------------------------------------------------------------------------------------------------
+
+@import "config";
+
+@import "base/animations";
+
+@import "base/element-icons";
+
+@import "elements/tooltip";
+
+@import "elements/buttons-set";
+
+// ------------------------------------------------------------------------------------------------
+// ELEMENTOR EDITOR SIDEBAR
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// ELEMENTOR OPTION LAYOUT
+// ------------------------------------------
+
+//**** ELEMENTOR ELEMENTS ORDER ****//
+
+#elementor-panel-categories {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+}
+
+.elementor-panel-category {
+	-ms-flex-order: 1;
+	order: 1;
+
+	-webkit-box-ordinal-group: 2;
+}
+
+#elementor-panel-category-wd-elements {
+	-ms-flex-order: -1;
+	order: -1;
+
+	-webkit-box-ordinal-group: 1;
+}
+
+#elementor-panel-category-wd-elements {
+	-ms-flex-order: 0;
+	order: 0;
+
+	-webkit-box-ordinal-group: 1;
+}
+
+
+
+//**** ELEMENTOR XTS BUTTONS ****//
+
+.elementor-control-type-wd_buttons {
+	padding-bottom: 5px;
+
+	.elementor-control-field {
+		flex-wrap: wrap;
+	}
+
+	.elementor-control-input-wrapper {
+		margin-top: 10px;
+		width: 100% !important;
+	}
+}
+
+//**** ELEMENTOR OPTION ANIMATION ****//
+
+.elementor-control {
+
+	&:not(.elementor-control-type-section) {
+
+		.elementor-control-content {
+			animation: xts-fade-in .3s ease;
+
+			animation-fill-mode: initial;
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// ELEMENTOR VISUAL EDITOR
+// ------------------------------------------------------------------------------------------------
+
+.cms_block-template-default,
+.woodmart_slide-template-default {
+
+	.whb-header {
+		display: none;
+	}
+
+	.site-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 0;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		min-height: 100vh;
+	}
+
+	#elementor-add-new-section {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	&.admin-bar {
+
+		.site-content {
+			min-height: calc(100vh - $admin-bar-height);
+		}
+	}
+}
+
+//**** SMALL ADD ITEM SECTION IN SLIDE EDITOR ****//
+
+.woodmart_slide-template-default {
+
+	// .elementor-add-section-inner {
+	// 	margin: 0;
+	// }
+
+	.elementor-add-new-section {
+		position: absolute;
+		top: 0;
+		left: calc(50% - 44px);
+	}
+
+	.elementor-add-section-close {
+		color: $color-gray-300;
+
+		&:hover {
+			color: $color-gray-400;
+		}
+	}
+
+	[data-view="choose-action"] {
+		margin-top: 10px !important;
+
+		.elementor-add-section-inner {
+			padding: 0;
+			border: none;
+			background: none;
+			// margin-top: 10px;
+		}
+	}
+
+	[data-view="select-preset"] {
+
+		.elementor-add-section-inner {
+			padding-top: 20px;
+			padding-bottom: 15px;
+			background-color: rgba(240, 240, 240, .9);
+
+			path {
+				fill: $color-gray-300;
+			}
+		}
+	}
+
+	.elementor-add-section-drag-title {
+		display: none;
+	}
+}
+
+//**** FIX CAROUSEL ON EDITOR ****//
+
+// .elementor-editor-active {
+
+// 	.xts-carousel {
+// 		min-height: 2px;
+// 	}
+// }
+
+//**** FIX ROW SETTINGS WHEN HEADER IS OVERLAP ****//
+
+.elementor-section--handles-inside > .elementor-element-overlay .elementor-editor-element-settings {
+	display: flex!important;
+}
+
+//**** HTML BLOCK COLOR SWITCHER ****//
+
+.wd-html-block-scheme-switcher {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: $z-layer-1;
+	margin: 8px;
+
+	> div {
+		padding: 0 15px;
+		height: 35px;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 35px;
+		cursor: pointer;
+		transition: .2s all ease-in-out;
+
+		&:hover {
+			opacity: .8;
+		}
+	}
+
+	.admin-bar & {
+		top: 32px;
+	}
+}
+
+.wd-html-block-scheme-dark {
+	margin-bottom: 5px;
+	background-color: $color-gray-200;
+	color: $color-gray-800;
+}
+
+.wd-html-block-scheme-light {
+	background-color: $color-gray-900;
+	color: $color-white;
+}
+
+// ------------------------------------------------------------------------------------------------
+// XTEMOS TEMPLATES
+// ------------------------------------------------------------------------------------------------
+
+.xts-library-modal-btn {
+	margin-left: 5px;
+	background-color: #0F4C81;
+	vertical-align: top;
+	font-size: 0 !important;
+
+	&:before {
+		content: "";
+		width: 16px;
+		height: 16px;
+		background-image: url(../../../../admin/assets/images/vc-icon/wd-xts-icon.svg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.rtl & {
+		margin-left: 0;
+		margin-right: 5px;
+	}
+}
+
+#xts-library-modal {
+
+	.xts-elementor-template-library-template-name {
+		text-align: right;
+		flex: 1 0 0%;
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// RTL
+// ------------------------------------------------------------------------------------------------
+
+.rtl {
+
+	.wd-html-block-scheme-switcher {
+		right: auto;
+		left: 0;
+	}
+}

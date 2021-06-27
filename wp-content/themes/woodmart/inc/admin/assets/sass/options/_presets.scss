@@ -1,0 +1,310 @@
+// ------------------------------------------------------------------------------------------------
+// OPTION PRESETS
+// ------------------------------------------------------------------------------------------------
+
+.xts-presets-wrapper {
+	overflow: hidden;
+
+	h4 {
+		font-size: 15px;
+		margin-top: 0;
+	}
+
+	.xts-notice {
+		margin-bottom: 20px;
+	}
+
+	.xts-options-message {
+		margin-top: -20px;
+		margin-bottom: 20px;
+	}
+
+	&.xtemos-loading {
+
+		.xts-current-preset {
+
+			h4,
+			[class*="xts-"] {
+				pointer-events: none;
+				opacity: .5;
+				transition: none;
+			}
+		}
+	}
+}
+
+.xts-presets-title {
+	min-height: 88px;
+}
+
+.xts-preset-conditions {
+	padding-bottom: 10px;
+	border-bottom: 1px solid $xts-option-border-color;
+
+	.xts-btn {
+		margin-right: $xts-option-space;
+		margin-bottom: 10px;
+
+		.rtl & {
+			margin-right: 0;
+			margin-left: $xts-option-space;
+		}
+	}
+}
+
+.xts-presets-list {
+	padding: 20px;
+	background-color: #FFF;
+}
+
+.xts-current-preset {
+	position: relative;
+	padding: 20px;
+	padding-bottom: 0;
+	background-color: #FFF;
+
+	.xts-rule {
+		position: relative;
+		display: flex;
+		margin-bottom: $xts-option-space / 2;
+
+		select,
+		div {
+			flex-grow: 1;
+			flex-basis: 33.33333%;
+			margin-right: $xts-option-space;
+			min-width: 30px;
+		}
+
+		select {
+			margin-bottom: $xts-option-space;
+		}
+	}
+}
+
+.xts-remove-preset-rule {
+	position: absolute;
+	top: 6px;
+	left: calc(100% - 8px);
+	display: flex;
+	align-items: center;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	font-size: 0;
+	line-height: 1;
+
+	&:hover {
+		opacity: .7;
+	}
+
+	&:before {
+		content: "\f335";
+		color: #AE3535;
+		font-weight: 400;
+		font-size: 22px;
+		font-family: dashicons;
+	}
+}
+
+// ------------------------------------------
+// INHERIT OPTIONS
+// ------------------------------------------
+
+.xts-inherit-checkbox-wrapper {
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 2px 4px;
+	border-radius: $xts-option-border-radius;
+	background: $xts-button-color-primary;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	white-space: nowrap;
+
+	input {
+		margin-top: -3px;
+		margin-right: 0;
+		margin-left: 2px;
+		min-width: 14px;
+		width: 14px;
+		height: 14px;
+		border-color: $xts-option-border-color;
+
+		&:focus {
+			border-color: $xts-option-border-color;
+		}
+
+		&:before {
+			margin-top: -4px !important;
+			margin-left: -4px !important;
+			width: 20px !important;
+			height: 20px !important;
+		}
+	}
+}
+
+.xts-preset-active {
+
+	.xts-option-title {
+
+		label {
+			flex-direction: column-reverse;
+			align-items: flex-start;
+			user-select: none;
+		}
+
+		span {
+			cursor: pointer;
+		}
+	}
+
+	.xts-custom_fonts-control,
+	.xts-advanced_typography-field {
+		flex-direction: column;
+		
+		.xts-option-title {
+			display: block;
+			padding-bottom: 0;
+			
+			span {
+				display: none;
+			}
+		}
+	}
+}
+
+.xts-field {
+
+	&.xts-field-disabled {
+		user-select: none;
+
+		.xts-option-title {
+			border-color: rgba($xts-option-border-color, .4) !important;
+
+			label {
+
+				> span {
+					opacity: .4;
+				}
+			}
+		}
+
+		.xts-field-description,
+		.xts-option-control {
+			opacity: .4;
+			pointer-events: none;
+			animation: none;
+		}
+
+		.xts-inherit-checkbox-wrapper {
+			background: #EFEFEF;
+			color: #444;
+		}
+	}
+
+	&.xts-notice-control {
+
+		.xts-option-control {
+			opacity: 1;
+			// border-color: rgba($xts-option-border-color, .4) !important;
+			border-color: $xts-option-border-color !important;
+		}
+	}
+}
+
+// ------------------------------------------
+// DESIGN LIST
+// ------------------------------------------
+
+.xts-design-list {
+
+	ul {
+		margin-top: 0;
+		margin-bottom: 20px;
+		overflow-x: auto;
+		max-height: 1668px;
+		padding-right: 5px;
+		margin-right: -5px;
+
+		&::-webkit-scrollbar {
+			width: 5px;
+		}
+	
+		&::-webkit-scrollbar-track {
+			background-color: rgba(#000,.07);
+		}
+	
+		&::-webkit-scrollbar-thumb {
+			background-color: rgba(#000,.12);
+		}
+	}
+
+	li {
+		margin-bottom: $xts-option-space;
+
+		&.xts-active {
+
+			a {
+				background: $xts-color-alternative;
+				background-position: right;
+				background-size: 150%;
+
+				&:hover {
+					background-position: left;
+				}
+
+				> span {
+					color: white;
+				}
+			}
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 9px 9px 9px 18px;
+		border-radius: $xts-option-border-radius;
+		background-color: $xts-button-color-default;
+		color: #444;
+		transition: all .25s ease;
+		
+		&:active,
+		&:focus {
+			box-shadow: none;
+			outline: none;
+		}
+
+		&:hover {
+			background-color: $xts-button-color-default-hover;
+
+			.xts-btn-disable {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+
+		> span {
+			font-weight: 600;
+			font-size: 16px;
+		}
+	}
+
+	.xts-btn-disable {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.rtl & {
+
+		a {
+			padding: 9px 18px 9px 9px;
+		}
+	}
+}

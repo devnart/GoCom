@@ -1,0 +1,90 @@
+{
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Manrope3",
+            "font-weight": "100",
+            "font-woff": {
+                "url": "",
+                "id": "2450"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2451"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2449"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2448"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2447"
+            }
+        },
+        "2": {
+            "font-name": "Manrope3",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "2455"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2456"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2454"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2453"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2452"
+            }
+        }
+    },
+    "text-font": {
+        "font-family": "Ubuntu",
+        "font-weight": "400",
+        "font-size": "15"
+    },
+    "primary-font": {
+        "font-family": "Manrope3",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "Manrope3",
+        "font-weight": "600"
+    },
+    "secondary-font": {
+        "font-family": "Manrope3",
+        "font-weight": "100"
+    },
+    "widget-titles-font": {
+        "font-family": "Manrope3",
+        "font-weight": "600"
+    },
+    "navigation-font": {
+        "font-family": "Ubuntu",
+        "font-weight": "500"
+    },
+    "primary-color": "#8ecbde",
+    "btns_default_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_accent_style": "rounded",
+    "btns_shop_bg": "#8ecbde",
+    "btns_shop_bg_hover": "#73bed6",
+    "btns_accent_bg": "#8ecbde",
+    "btns_accent_bg_hover": "#73bed6",
+    "form_fields_style": "rounded",
+    "form_border_width": "1",
+    "single_product_header": "header_281910",
+    "sticky_toolbar": null,
+    "products_spacing": "30"
+}

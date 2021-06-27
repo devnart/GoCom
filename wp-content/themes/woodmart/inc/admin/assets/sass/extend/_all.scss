@@ -1,0 +1,271 @@
+// ------------------------------------------
+// EXTEND OLD
+// ------------------------------------------ 
+
+%woodmart-admin-header {
+	background-color: $woodmart-primary-color;
+	border-bottom: 3px solid lighten($woodmart-primary-color,20%);
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #FFF;
+	}
+}
+
+%woodmart-admin-footer {
+	background-color: $woodmart-gray-color;
+	font-size: 14px;
+}
+
+%woodmart-admin-btn {
+	border-radius: 0;
+	font-size: 12px;
+	line-height: 1;
+	height: auto;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	border-radius: $woodmart-vc-options-border;
+	font-weight: 600;
+
+	&:hover,
+	&:focus,
+	&:active {
+		box-shadow: none;
+	}
+
+	&:active {
+		transform: none;
+	}
+}
+
+%woodmart-admin-btn-primary {
+	border-color: $woodmart-button-color;
+	background-color: $woodmart-button-color;
+	color: #FFF;
+
+	&:hover,
+	&:focus,
+	&:active {
+		border-color: $woodmart-button-color-hover;
+		background-color: $woodmart-button-color-hover;
+		color: #FFF;
+	}
+
+	&[disabled] {
+		border-color: $woodmart-button-color-hover !important;
+		background-color: $woodmart-button-color-hover !important;
+		color: #FFF !important;
+		opacity: .5;
+	}
+}
+
+%woodmart-admin-btn-alternative {
+	border-color: $woodmart-button-alt-color;
+	background-color: $woodmart-button-alt-color;
+	color: #FFF;
+
+	&:hover,
+	&:focus,
+	&:active {
+		border-color: $woodmart-button-alt-color-hover;
+		background-color: $woodmart-button-alt-color-hover;
+		color: #FFF;
+	}
+
+	&[disabled] {
+		border-color: $woodmart-button-alt-color-hover !important;
+		background-color: $woodmart-button-alt-color-hover !important;
+		color: #FFF !important;
+		opacity: .5;
+	}
+}
+
+%woodmart-input-style {
+	box-shadow: none;
+	border-radius: $woodmart-vc-options-border;
+
+	&:hover {
+		border-color: #bdbdbd;
+	}
+
+	&:focus {
+		border-color: #999;
+	}
+}
+
+%woodmart-colorpicker-style {
+
+	.wp-color-result {
+		@extend %woodmart-input-style;
+		height: 36px !important;
+		margin-bottom: 0 !important;
+		margin-right: 0 !important;
+		border-color: #ddd;
+		padding-left: 34px;
+	}
+
+	.wp-color-result-text {
+		line-height: 34px;
+		border-left-color: #ddd;
+		border-radius: 0;
+		border-top-right-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+
+	.wp-color-picker {
+		margin-left: 6px !important;
+	}
+
+	.wp-picker-input-wrap {
+		
+		.button {
+			height: 36px;
+			box-shadow: none;
+			line-height: 1;
+		}
+	}
+
+	.iris-picker {
+		margin-top: 12px;
+		z-index: 20;
+		border-radius: $woodmart-vc-options-border;
+	}
+}
+
+%woodmart-image-checkmark {
+	content: "\f147";
+	font-family: dashicons;
+	position: absolute;
+	display: block;
+	padding-left: 2px;
+	padding-top: 1px;
+	padding-right: 4px;
+	border-radius: 50%;
+	background-color: $woodmart-button-color;
+	top: -5px;
+	right: -6px;
+	z-index: 15;
+	color: #FFF;
+	text-align: center;
+}
+
+// ------------------------------------------------------------------------------------------------
+// EXTENDS
+// ------------------------------------------------------------------------------------------------
+
+// @extend %xts-button;
+
+%xts-button {
+	display: inline-block;
+	height: $xts-option-input-height;
+	line-height: $xts-option-input-height;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	transition: .2s all ease-in-out;
+	background-color: $xts-button-color-default;
+	color: #444;
+	box-shadow: none;
+	border: none;
+	transform: none;
+	outline: none;
+
+	&:hover {
+		background-color: $xts-button-color-default-hover;
+		cursor: pointer;
+	}
+
+	&:hover,
+	&:focus {
+		color: #444;
+		box-shadow: none;
+	}
+}
+
+// @extend %xts-button-primary;
+
+%xts-button-primary {
+	background-color: $xts-color-primary;
+	color: #FFF;
+
+	&:hover,
+	&:focus {
+		color: #FFF;
+	}
+}
+
+// @extend %xts-button-alternative;
+
+%xts-button-alternative {
+	background-color: $xts-color-alternative;
+	color: #FFF;
+
+	&:hover,
+	&:focus {
+		color: #FFF;
+	}
+}
+
+// @extend %xts-button-primary-hover;
+
+%xts-button-primary-hover {
+
+	&:hover {
+		background-color: $xts-button-color-primary-hover;
+	}
+}
+
+// @extend %xts-buttons-side-rounded;
+
+%xts-buttons-side-rounded {
+
+	&:first-child {
+		border-top-left-radius: $xts-option-border-radius;
+		border-bottom-left-radius: $xts-option-border-radius;
+	}
+
+	&:last-child {
+		border-top-right-radius: $xts-option-border-radius;
+		border-bottom-right-radius: $xts-option-border-radius;
+	}
+
+	.rtl & {
+	
+		&:first-child {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+
+			border-top-right-radius: $xts-option-border-radius;
+			border-bottom-right-radius: $xts-option-border-radius;
+			
+		}
+	
+		&:last-child {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+
+			border-top-left-radius: $xts-option-border-radius;
+			border-bottom-left-radius: $xts-option-border-radius;
+		}
+	}
+}
+
+// @extend %xts-js-loading-fadein;
+
+%xts-js-loading-fadein {
+	animation: wd-fadeIn .2s ease both;
+}
+
+// @extend %xts-fill;
+
+%xts-fill {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}

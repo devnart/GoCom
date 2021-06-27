@@ -1,0 +1,65 @@
+// ------------------------------------------
+// OLD VARIABLES
+// ------------------------------------------ 
+
+$woodmart-primary-color: #131313;
+$woodmart-sidebar-color: #333;
+$woodmart-button-color: #4D93D1;
+$woodmart-button-color-hover: #2b6ca6;
+$woodmart-button-alt-color: #A8D14D;
+$woodmart-button-alt-color-hover: #9ec151;
+$woodmart-gray-color: #f9f9f9;
+
+$woodmart-vc-element-title: #444;
+$woodmart-vc-options-border: 4px;
+
+$woodmart-notice-info: #4D93D1;
+$woodmart-notice-success: #A8D14D;
+$woodmart-notice-warning: #f9b826;
+$woodmart-notice-critical: #d74646;
+
+// ------------------------------------------
+// VARIABLES
+// ------------------------------------------
+
+$xts-color-primary: #4D93D1;
+$xts-color-alternative: #A8D14D;
+$xts-color-default: #EFEFF0;
+
+// BUTTONS
+
+$xts-button-color-primary: $xts-color-primary;
+$xts-button-color-primary-hover: darken($xts-button-color-primary,7%);
+
+$xts-button-color-default: $xts-color-default;
+$xts-button-color-default-hover: darken($xts-button-color-default,7%);
+
+$xts-button-color-remove: #EE4E41;
+$xts-button-color-remove-hover: darken($xts-button-color-remove,7%);
+
+// BORDERS
+
+$xts-option-border-radius: 4px;
+$xts-option-border-color: #e7e7e7;
+
+// INPUT
+
+$xts-option-input-height: 35px;
+$xts-input-width: 300px;
+$xts-typography-input-width: 345px;
+
+$xts-option-space: 12px;
+
+// ------------------------------------------
+// PREDEFINED BREAKPOINTS
+// ------------------------------------------
+
+$media-xxl: 1441px;
+
+$media-xl: 1200px;
+
+$media-lg: 1024px;
+
+$media-md: 768px;
+
+$media-sm: 576px;

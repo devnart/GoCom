@@ -1,0 +1,15 @@
+ {
+    "name": "Retail-2 slider",
+    "slug": "retail-2-slider",
+    "meta": {
+        "stretch_slider": "off",
+        "height": 500,
+        "height_tablet": 545,
+        "height_mobile": 500,
+        "arrows_style": 1,
+        "pagination_style": 1,
+        "pagination_color": "light",
+        "autoplay": "off",
+        "animation": "slide"
+    }
+  }

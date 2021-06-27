@@ -1,0 +1,490 @@
+// ------------------------------------------------------------------------------------------------
+// CSS GENERATOR
+// ------------------------------------------------------------------------------------------------
+
+.woodmart-generator-form {
+
+	h4 {
+		margin-top: 0;
+		margin-bottom: 15px;
+		color: $woodmart-vc-element-title;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 16px;
+	}
+
+	.woodmart-column-inner {
+		display: block;
+	}
+}
+
+.css-options-box {
+
+	h3 {
+		margin-top: 0;
+	}
+
+	.css-checkbox {
+
+		label {
+			position: relative;
+			display: inline-block;
+			margin-left: -30px;
+			padding-left: 30px;
+			user-select: none;
+
+			&:hover {
+
+				.css-tooltip {
+					visibility: visible;
+					opacity: 1;
+					-webkit-transform: translateY(-50%) translateZ(0);
+					transform: translateY(-50%) translateZ(0);
+				}
+			}
+		}
+
+		input[type=checkbox] {
+			position: relative;
+			margin-bottom: -4px;
+			width: 18px;
+			height: 18px;
+			border: 2px solid #C5C5C5;
+			border-radius: 3px;
+			box-shadow: none;
+			box-shadow: 0 0 5px transparent;
+			-webkit-transition: all .15s ease-out;
+			transition: all .15s ease-out;
+
+			&:checked {
+				border: 2px solid $woodmart-button-color;
+				background-color: $woodmart-button-color;
+
+				&:before {
+					opacity: 1;
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+
+			&:disabled {
+				opacity: .5;
+				cursor: default;
+
+				+ label {
+					opacity: .5;
+					cursor: default;
+				}
+			}
+
+			&:hover:not(:disabled) {
+				border: 2px solid $woodmart-button-color;
+				box-shadow: 0 0 5px rgba(0,0,0,.15);
+			}
+
+			&:before {
+				content: "\f147";
+				position: absolute;
+				top: 1px;
+				left: 0;
+				display: inline-block;
+				height: 18px;
+				color: #FFF;
+				font-family: dashicons;
+				line-height: 19px;
+				opacity: 0;
+				-webkit-transition: all .15s ease-out;
+				transition: all .15s ease-out;
+				-webkit-transform: scale(.5);
+				transform: scale(.5);
+			}
+		}
+
+		.css-checkbox {
+			margin-bottom: 10px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			label {
+				margin-bottom: 0;
+				font-weight: 400;
+			}
+
+			.css-checkbox {
+
+				label {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	> .css-checkbox {
+		padding: 15px;
+		border: 1px solid #E8E8E8;
+		border-radius: 4px;
+		background-color: #F9F9F9;
+
+		> label {
+			font-weight: 600;
+		}
+
+		+ .css-checkbox {
+			margin-top: 15px;
+		}
+
+		> .css-checkbox-children {
+			margin-bottom: 0;
+		}
+	}
+
+
+	&:not(:last-child) {
+		margin-bottom: 25px;
+	}
+}
+
+.css-checkbox-children {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.css-checkbox {
+
+	&.wooComm {
+		padding-bottom: 0 !important;
+
+		> .css-checkbox-children {
+
+			> .css-checkbox {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+.css-file-actions {
+
+	a {
+		&.button-primary {
+			border-color: #D74646;
+			background-color: #D74646;
+
+			&:hover,
+			&:focus {
+				border-color: #AB2525;
+				background-color: #AB2525;
+			}
+		}
+	}
+
+	.css-update-button {
+		margin-right: 7px;
+	}
+}
+
+.css-file-information {
+	margin-top: 40px;
+
+	h3 {
+
+		span {
+			color: $woodmart-vc-element-title;
+		}
+	}
+
+	table {
+		margin-bottom: 20px;
+		max-width: 100%;
+		width: 500px;
+		border-top: 1px solid #EFEFEF;
+		border-left: 1px solid #EFEFEF;
+		font-size: 14px;
+
+		td,
+		th {
+			padding: 15px 20px;
+			border-right: 1px solid #EFEFEF;
+			border-bottom: 1px solid #EFEFEF;
+		}
+
+		th {
+			width: 30%;
+			text-align: left;
+		}
+	}
+}
+
+//*** CSS GENERATOR TOOLTIP ***//
+
+.css-tooltip {
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	z-index: 3;
+	visibility: hidden;
+	margin-left: 20px;
+	padding: 15px;
+	// width: 330px;
+	border-radius: 4px;
+	background: #FFF;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+	box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease, visibility .25s ease, -webkit-transform .25s ease;
+	transition: opacity .25s ease, visibility .25s ease, -webkit-transform .25s ease;
+	transition: opacity .25s ease, visibility .25s ease, transform .25s ease;
+	transition: opacity .25s ease, visibility .25s ease, transform .25s ease, -webkit-transform .25s ease;
+	-webkit-transform: translateY(-45%) translateZ(0);
+	transform: translateY(-45%) translateZ(0);
+	pointer-events: none;
+
+	// &:before {
+	// 	content: "";
+	// 	position: absolute;
+	// 	top: 0;
+	// 	right: 100%;
+	// 	width: 20px;
+	// 	height: 100%;
+	// }
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: -5px;
+		display: block;
+		width: 10px;
+		height: 10px;
+		background: #FFF;
+		-webkit-box-shadow: -2px -1px 2px 0 rgba(179, 176, 176, .17);
+		box-shadow: -2px -1px 2px 0 rgba(179, 176, 176, .17);
+		-webkit-transform: translateY(-50%) rotate(-45deg);
+		transform: translateY(-50%) rotate(-45deg);
+	}
+}
+
+.css-tooltip-image {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	align-items: center;
+	justify-content: center;
+
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+
+	img {
+		max-width: 330px;
+		max-height: 270px;
+		border-radius: 4px;
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// RTL
+// ------------------------------------------------------------------------------------------------
+
+.rtl {
+
+	// CSS GENERATOR FORM //
+
+	.css-checkbox-children {
+		margin-right: 20px;
+		margin-left: 0;
+	}
+
+	///**** CSS GENERATOR TOOLTIP ****//
+
+	.css-options-box {
+
+		.css-checkbox {
+
+			label {
+				margin-right: -30px;
+				margin-left: 0;
+				padding-right: 30px;
+				padding-left: 0;
+			}
+		}
+	}
+
+	.css-tooltip {
+		right: 100%;
+		left: auto;
+		margin-right: 20px;
+
+		&:before {
+			left: 100%;
+		}
+
+		&:after {
+			right: -5px;  left: auto;
+			-webkit-box-shadow: 2px 1px 2px 0 rgba(179, 176, 176, .17);
+			box-shadow: 2px 1px 2px 0 rgba(179, 176, 176, .17);
+			}
+	}
+
+	.css-tooltip-right {
+
+		.css-tooltip {
+			right: auto;
+			left: 100%;
+			margin-left: 20px;
+
+			&:before {
+				right: 100%;
+			}
+
+			&:after {
+				right: auto;
+				left: -5px;
+				-webkit-box-shadow: -2px -1px 2px 0 rgba(179, 176, 176, .17);
+					box-shadow: -2px -1px 2px 0 rgba(179, 176, 176, .17);
+			}
+		}
+	}
+}
+
+.woomart-woo-column {
+
+	.css-checkbox[data-parent="none"] {
+
+		h4 {
+			flex-basis: 100%;
+			margin-right: 15px;
+			padding-bottom: 14px;
+			width: 100%;
+			border-bottom: 1px solid #e8e8e8;
+			margin-top: 15px;
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+@media (max-width: 1600px) {
+
+	.css-tooltip-right {
+
+		.css-tooltip {
+			right: 100%;
+			left: auto;
+			margin-right: 20px;
+
+			&:before {
+				left: 100%;
+			}
+
+			&:after {
+				right: -5px;
+				left: auto;
+				-webkit-box-shadow: 2px 1px 2px 0 rgba(179, 176, 176, .17);
+				box-shadow: 2px 1px 2px 0 rgba(179, 176, 176, .17);
+			}
+		}
+	}
+}
+
+// ------------------------------------------
+// MEDIA 1024 AND UP
+// ------------------------------------------
+
+@mixin R-MD-UP__css-generator {
+
+	.woodmart-row {
+	
+		&.woodmart-four-columns {
+	
+			.woodmart-column {
+	
+				&.woomart-woo-column {
+					@include flex(0 0 50%);
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	.woomart-woo-column {
+
+		.css-checkbox[data-parent="none"] {
+	
+			> .css-checkbox-children {
+				display: flex;
+				flex-wrap: wrap;
+	
+				> .css-checkbox:not(.wc-product) {
+					flex-basis: 50%;
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	.woomart-woo-column,
+	.woodmart-wp-options {
+
+		.css-checkbox[data-parent="none"] {
+
+			> .css-checkbox-children {
+
+				> .css-checkbox {
+	
+					> label {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+	
+	.wc-product {
+		flex-basis: 100%;
+		width: 100%;
+	
+		.css-checkbox-children {
+			display: flex;
+			flex-wrap: wrap;
+	
+			> .css-checkbox {
+				flex-basis: 50%;
+				width: 50%;
+			}
+		}
+	}
+
+	.woodmart-wp-options {
+
+		> .css-checkbox {
+
+			> .css-checkbox-children {
+
+				> .css-checkbox {
+
+					&:not(:first-child) {
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// ------------------------------------------
+// MEDIA 1024 AND DOWN
+// ------------------------------------------
+
+@mixin R-MD-DOWN__css-generator {
+
+	.css-tooltip {
+		display: none;
+	}
+}

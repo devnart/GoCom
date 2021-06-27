@@ -1,0 +1,10 @@
+{
+	"footer-1": {
+		"widgets": {
+			"text": {
+				"text": "<div class=\"footer-logo\" style=\"max-width: 80%; margin-bottom: 10px;\"><img src=\"http://dummy.xtemos.com/woodmart/wp-content/themes/woodmart/images/wood-logo-white.svg\"  style=\"margin-bottom: 10px;\" /></div><p>Condimentum adipiscing vel neque dis nam parturient orci at scelerisque neque dis nam parturient.</p><div style=\"line-height: 2;\"><i class=\"fa fa-location-arrow\" style=\"width: 15px; text-align: center; margin-right: 4px;\"></i> 451 Wall Street, UK, London<br><i class=\"fa fa-mobile\" style=\"width: 15px; text-align: center; margin-right: 4px;\"></i> Phone: (064) 332-1233<br><i class=\"fa fa-envelope-o\" style=\"width: 15px; text-align: center; margin-right: 4px;\"></i> Fax: (099) 453-1357</div>"
+			}
+		}, 
+		"flush": true
+	}
+}

@@ -1,0 +1,133 @@
+{
+    "primary-color": "#AAD0EB",
+    "primary-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "navigation-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "500"
+    },
+    "text-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "products_hover": "icons",
+    "blog_excerpt_length": "120",
+    "btns_shop_bg": "#AAD0EB",
+    "btns_accent_bg": "#AAD0EB",
+    "btns_shop_bg_hover": "#9BBED6",
+    "btns_accent_bg_hover": "#9BBED6",
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "form_border_width": "1",
+    "rev_slider_inherit_theme_font":"1",
+    "products_spacing": "20",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "1621"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1622"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1607"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1604"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1608"
+            }
+        },
+        "2": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "500",
+            "font-woff": {
+                "url": "",
+                "id": "1619"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1620"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1609"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1605"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1610"
+            }
+        },
+        "3": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "1623"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1624"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1625"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1606"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1626"
+            }
+        },
+        "4": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "700",
+            "font-woff": {
+                "url": "",
+                "id": "1617"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1618"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1612"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1611"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1627"
+            }
+        }
+    }
+}

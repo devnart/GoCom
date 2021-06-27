@@ -1,0 +1,24 @@
+{
+    "primary-font": {
+        "font-family": "Quicksand"
+    },
+    "post-titles-font": {
+        "font-family": "Quicksand"
+    },
+    "text-font": {
+        "font-family": "Quicksand"
+    },
+    "footer-bar-bg": {
+        "background-color": "#DD7174"
+    },
+    "footer-style": "light",
+    "primary-color": "#28C0F1",
+    "navigation-font": {
+        "font-family": "Quicksand",
+        "font-weight": "500"
+    },
+    "btns_accent_bg": "#28C0F1",
+    "btns_shop_bg": "#28C0F1",
+    "btns_default_bg_hover": "#2FB0DA",
+    "btns_accent_bg_hover": "#2FB0DA"
+}

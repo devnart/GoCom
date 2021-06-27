@@ -1,0 +1,85 @@
+// ------------------------------------------------------------------------------------
+// XTS METABOXES
+// ------------------------------------------------------------------------------------
+
+.xts-metaboxes {
+
+	// .xts-fields-tabs {
+	// 	flex-direction: column;
+	// }
+
+	.inside & {
+
+		.xts-fields-wrapper {
+			margin-top: -7px;
+			margin-right: -10px;
+			margin-left: -10px;
+		}
+
+		.xts-sections {
+			padding-left: 10px;
+			padding-right: 10px;
+			width: 100%;
+		}
+	}
+
+	.xts-group-title {
+		margin-right: -12px;
+		margin-left: -12px;
+	}
+
+	.xts-sections-nav,
+	.xts-section-title {
+		display: none;
+	}
+
+	.xts-set-btn-img {
+		flex-basis: auto;
+		max-width: 200px;
+	}
+}
+
+#addtag,
+#edittag {
+
+	.xts-metaboxes {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.xts-sections {
+		padding-top: 30px;
+	}
+
+	.xts-field {
+		flex-wrap: wrap;
+
+		.xts-option-title {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			width: 100%;
+			border-bottom: 0;
+
+			label {
+				margin-bottom: 0;
+			}
+		}
+
+		.xts-field-description {
+			margin-top: 5px;
+		}
+
+		.xts-option-control {
+			margin-top: 15px;
+			padding-bottom: 25px;
+		}
+
+		.xts-range-slider {
+			margin-top: 0 !important;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 25px;
+		}
+	}
+}

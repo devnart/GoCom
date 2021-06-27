@@ -1,0 +1,58 @@
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------------
+// BREAKPOINTS UP
+// ------------------------------------------------------------------------------------------------
+
+// MEDIA 1441 AND UP
+
+@media (min-width: #{$media-xxl}) {
+
+	// GRID STYLE
+
+	@include R-XXL-UP__helpers;
+}
+
+// MEDIA 1200 AND UP
+
+@media (min-width: #{$media-xl}) {
+
+	// GRID STYLE
+
+	@include R-XL-UP__helpers;
+}
+
+// MEDIA 1024 AND UP
+
+@media (min-width: #{$media-lg + 1px}) {
+
+	// CSS GENERATOR
+
+	@include R-MD-UP__css-generator;
+
+	// GRID STYLE
+
+	@include R-MD-UP__helpers;
+}
+
+// ------------------------------------------------------------------------------------------------
+// BREAKPOINTS DOWN
+// ------------------------------------------------------------------------------------------------
+
+// MEDIA 1200 AND DOWN
+
+@media (max-width: #{$media-xl}) {
+
+}
+
+// MEDIA 1024 AND DOWN
+
+@media (max-width: #{$media-lg}) {
+
+	@include R-MD-DOWN__helpers;
+
+	@include R-MD-DOWN__css-generator;
+}

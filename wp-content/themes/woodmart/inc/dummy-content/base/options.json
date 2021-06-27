@@ -1,0 +1,12 @@
+{
+	"blog_excerpt" : "excerpt",
+	"additional_tab_text" : "[html_block id=\"242\"]",
+	"popup_text" : "[html_block id=\"212\"]",
+	"promo_popup" : true,
+	"compare_page": "265",
+	"wishlist_page": "267",
+	"btns_default_bg_hover": "#efefef",
+	"btns_shop_bg_hover": "#6ca300",
+	"btns_accent_bg_hover": "#6ca300",
+	"products_spacing": "20"
+}

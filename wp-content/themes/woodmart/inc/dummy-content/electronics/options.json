@@ -1,0 +1,16 @@
+{
+    "primary-color": "#007bc4",
+    "btns_shop_bg": "#007bc4",
+    "btns_shop_bg_hover": "#006aa9",
+    "btns_default_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_accent_style": "rounded",
+    "footer-bar-bg": {
+        "background-color": "#0a0a0a"
+    },
+    "footer-style": "light",
+    "form_fields_style": "rounded",
+    "btns_accent_bg": "#007bc4",
+    "btns_accent_bg_hover": "#006aa9",
+    "products_spacing": "20"
+}

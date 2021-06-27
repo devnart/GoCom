@@ -1,0 +1,71 @@
+{
+    "site_width": "custom",
+    "site_custom_width": "1400",
+    "primary-color": "#439665",
+    "primary-font": {
+        "font-family": "Hind",
+        "font-weight": "600"
+    },
+    "text-font": {
+        "font-family": "Hind"
+    },
+    "btns_default_style": "flat",
+    "btns_accent_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_bg": "#439665",
+    "btns_shop_bg_hover": "#3D885C",
+    "btns_shop_bg": "#439665",
+    "post-titles-font": {
+        "font-family": "Hind",
+        "font-weight": "600"
+    },
+    "form_fields_style": "square",
+    "form_border_width": "1",
+    "secondary-font": {
+        "font-family": "Raleway",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Hind",
+        "font-weight": "600"
+    },
+    "navigation-font": {
+        "font-family": "Hind",
+        "font-weight": "600"
+    },
+    "prefooter_area": "[html_block id=\"2144\"]",
+    "footer-style": "dark",
+    "header_banner": "yes",
+    "header_banner_bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center bottom",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2018\/11\/retail-black-friday-top-banner.jpg"
+    }, 
+    "header_close_btn": "yes",
+    "header_banner_link": "#",
+    "header_banner_height": "100",
+    "header_banner_mobile_height": "60",
+    "header_banner_shortcode": "",
+    "label_shape": "rectangular",
+    "header_banner_color": "dark",
+    "grid_stock_progress_bar": "yes",
+    "single_stock_progress_bar": "yes",
+    "btns_accent_bg_hover": "#3D885C",
+    "copyrights2": "",
+    "copyrights-layout": "centered",
+    "footer-bar-bg": {
+        "background-color": "#F7F7F7"
+    },
+    "footer-layout": "1",
+    "advanced_typography": {
+        "0": {
+			"selector": ["product_category_title"],
+			"custom-selector": "",
+            "google": "0",
+            "font-size": "16"
+        }
+    },
+    "products_spacing": "20"
+}

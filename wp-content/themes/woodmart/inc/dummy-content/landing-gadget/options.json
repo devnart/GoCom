@@ -1,0 +1,91 @@
+{
+    "primary-color": "#e84e48",
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_accent_style": "semi-rounded",
+    "form_fields_style": "semi-rounded",
+    "form_border_width": "1",
+    "btns_shop_bg": "#e84e48",
+    "btns_shop_bg_hover": "#D44742",
+    "btns_accent_bg": "#e84e48",
+    "btns_accent_bg_hover": "#D44742",
+    "footer-bar-bg": {
+        "background-color": "#f0f2f4"
+    },
+    "footer-layout": "1",
+    "disable_copyrights": "",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "1621"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1622"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1607"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1604"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1608"
+            }
+        },
+        "2": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "1623"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1624"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "1625"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "1606"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "1626"
+            }
+        }
+    },
+    "text-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "400"
+    },
+    "primary-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "400"
+    },
+    "navigation-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    }
+}

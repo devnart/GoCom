@@ -1,0 +1,31 @@
+{
+    "primary-font": {
+        "font-family": "Open Sans",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "Open Sans",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Open Sans"
+    },
+    "primary-color": "#5797B2",
+    "btns_shop_bg": "#76AAC1",
+    "btns_shop_bg_hover": "#5797B2",
+    "btns_shop_color_scheme": "light",
+    "btns_shop_color_scheme_hover": "light",
+    "btns_shop_style": "flat",
+    "btns_accent_bg": "#76AAC1",
+    "btns_accent_bg_hover": "#5797B2",
+    "btns_accent_color_scheme": "light",
+    "btns_accent_color_scheme_hover": "light",
+    "form_border_width": "1",
+    "products_hover": "quick",
+    "shop_hide_sidebar_desktop": true,
+    "shop_title": "",
+    "shop_categories": "",
+    "products_columns": "4",
+    "header_widget": "[html_block id=\"890\"]",
+    "products_spacing": "20"
+}

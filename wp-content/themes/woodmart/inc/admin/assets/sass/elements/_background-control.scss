@@ -1,0 +1,64 @@
+// ------------------------------------------
+// XTS BACKGROUND CONTROL
+// ------------------------------------------
+
+.xts-bg-source {
+	display: flex;
+
+	.xts-upload-preview {
+
+		img {
+			max-height: 35px;
+			max-width: 100%;
+			margin-bottom: 0 !important;
+		}
+	}
+
+	.wp-picker-container,
+	.xts-upload-preview {
+		margin-bottom: 0;
+	}
+
+	.xts-bg-image {
+		margin-left: $xts-option-space / 2;
+		margin-right: $xts-option-space / 2;
+	}
+}
+
+.xts-bg-image-options {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: -$xts-option-space;
+
+	select,
+	.select2 {
+		margin-right: $xts-option-space;
+		margin-bottom: $xts-option-space;
+		min-width: 185px;
+		width: auto !important;
+	}
+
+	.rtl & {
+
+		select,
+		.select2 {
+			margin-right: 0;
+			margin-left: $xts-option-space;
+		}
+	
+	}
+}
+
+.xts-bg-preview {
+	// display: none !important;
+	border-radius: $xts-option-border-radius;
+	border: 1px solid $xts-option-border-color;
+
+	// &[style^="background-color"] {
+	// 	display: block !important;
+	// }
+
+	&:not([style]) {
+		display: none;
+	}
+}

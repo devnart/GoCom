@@ -1,0 +1,88 @@
+{
+    "primary-color": "#979c6d",
+    "body-background": {
+        "background-color": "#3f412e",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "form_fields_style": "square",
+    "form_border_width": "2",
+    "btns_shop_bg": "#979c6d",
+    "btns_shop_bg_hover": "#8A8E64",
+    "btns_accent_bg_hover": "#8A8E64",
+    "btns_accent_bg": "#979c6d",
+    "text-font": {
+        "font-family": "Lato",
+        "font-weight": "400",
+        "font-size": "15"
+    },
+    "primary-font": {
+        "font-family": "Patua One",
+        "font-weight": "400"
+    },
+    "post-titles-font": {
+        "font-family": "Patua One",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "Patua One",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Patua One",
+        "font-weight": "400"
+    },
+    "site_width": "boxed-2",
+    "pages-background": {
+        "background-color": "#faf8f6",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "navigation-font": {
+        "font-family": "Patua One",
+        "font-weight": "400"
+    },
+    "single_product_header": "header_675505",
+    "footer-layout": "1",
+    "footer-style": "light",
+    "disable_copyrights": "",
+    "prefooter_area": "",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "no-repeat",
+        "background-size": "cover",
+        "background-position": "center bottom",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2019\/03\/camping-footer-bg.jpg"         
+    },
+    "advanced_typography": {
+        "0": {
+            "selector": ["secondary_navigation"],
+            "custom-selector": "",
+            "google": "0",
+            "font-weight": "600",
+            "font-family":"Lato"
+        }
+    },
+    "products_spacing": "20"
+}

@@ -1,0 +1,95 @@
+{
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Metropolis",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "2397"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2410"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2396"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2395"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2394"
+            }
+        },
+        "2": {
+            "font-name": "Metropolis",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "2407"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2408"
+            },
+            "font-ttf": {
+                "url": "",
+                "id": "2406"
+            },
+            "font-svg": {
+                "url": "",
+                "id": "2409"
+            },
+            "font-eot": {
+                "url": "",
+                "id": "2404"
+            }
+        }
+    },
+    "text-font": {
+        "font-family": "Metropolis",
+        "font-weight": "400"
+    },
+    "primary-font": {
+        "font-family": "Metropolis",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "Metropolis",
+        "font-weight": "600"
+    },
+    "secondary-font": {
+        "font-family": "Metropolis",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Metropolis",
+        "font-weight": "600"
+    },
+    "navigation-font": {
+        "font-family": "Metropolis",
+        "font-weight": "600"
+    },
+
+    "primary-color": "#558063",
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "btns_shop_bg": "#558063",
+    "btns_shop_bg_hover": "#486d54",
+    "btns_accent_bg": "#558063",
+    "btns_accent_bg_hover": "#486d54",
+    "form_fields_style": "square",
+    "form_border_width": "1",
+    "footer-bar-bg": {
+        "background-color": "#f7f7f7"
+    },
+    "footer-layout": "1",
+    "prefooter_area": "",
+    "site_width": "custom",
+    "site_custom_width": "1350",
+    "products_spacing": "20"
+}

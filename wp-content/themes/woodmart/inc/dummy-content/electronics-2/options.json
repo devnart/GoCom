@@ -1,0 +1,32 @@
+{
+    "primary-color": "#43B02A",
+    "form_fields_style": "rounded",
+    "btns_default_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_accent_style": "rounded",
+    "btns_shop_bg": "#43B02A",
+    "btns_accent_bg": "#43B02A",
+    "btns_shop_bg_hover": "#40A02F",
+    "btns_accent_bg_hover": "#40A02F",
+    "primary-font": {
+        "font-family": "Montserrat",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Montserrat",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "Montserrat",
+        "font-weight": "600"
+    },
+    "text-font": {
+        "font-family": "Lato"
+    },
+    "navigation-font": {
+        "font-family": "Lato",
+        "font-weight": "700"
+    },
+    "blog_style": "flat",
+    "products_spacing": "20"
+}

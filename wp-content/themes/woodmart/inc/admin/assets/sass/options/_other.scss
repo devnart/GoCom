@@ -1,0 +1,204 @@
+// ------------------------------------------
+// Theme settings search
+// ------------------------------------------
+
+div.xts-options-search {
+	position: relative;
+
+	input[type="text"] {
+		padding-left: 0;
+		width: 300px;
+		border-top: none;
+		border-right: none;
+		border-bottom: 2px solid rgba(255,255,255,.3);
+		border-left: none;
+		border-radius: 0 !important;
+		background: transparent;
+		color: rgba(255,255,255,.7);
+		font-size: 18px;
+
+		&:focus {
+			outline: none;
+			border-bottom: 2px solid rgba(255,255,255,.6);
+
+			@include box-shadow(rgba(0,0,0,0) 0 0 0);
+		}
+
+		&::-webkit-input-placeholder {color: rgba(#FFF,.4);}
+		&::-moz-placeholder			{color: rgba(#FFF,.4);}
+		&:-moz-placeholder			{color: rgba(#FFF,.4);}
+		&:-ms-input-placeholder		{color: rgba(#FFF,.4);}
+	}
+
+	&:after {
+		content: "\f179";
+		position: absolute;
+		top: 5px;
+		right: 1px;
+		display: inline-block;
+		font-size: 24px;
+		font-family: dashicons;
+		line-height: 1;
+		color: #3c434a;
+	}
+
+	.rtl & {
+
+		&:after {
+			right: auto;
+			left: 1px;
+		}
+	}
+}
+
+// ------------------------------------------
+// XTS IMPORT/EXPORT
+// ------------------------------------------
+
+.xts-import-area {
+	margin-bottom: $xts-option-space;
+}
+
+// ------------------------------------------
+// THEME SETTINGS SEARCH
+// ------------------------------------------
+
+.xtemos-settings-search {
+	position: relative;
+	float: left;
+	margin: 17px;
+
+	input[type="text"] {
+		padding-left: 0;
+		width: 300px;
+		border-top: none;
+		border-right: none;
+		border-bottom: 2px solid rgba(255,255,255,.3);
+		border-left: none;
+		background: transparent;
+		color: rgba(255,255,255,.7);
+		font-size: 18px;
+
+		&:focus {
+			outline: none;
+			border-bottom: 2px solid rgba(255,255,255,.6);
+
+			@include box-shadow(rgba(0,0,0,0) 0 0 0);
+		}
+	}
+
+	&:after {
+		content: "\f179";
+		position: absolute;
+		top: 5px;
+		right: 1px;
+		display: inline-block;
+		vertical-align: top;
+		text-decoration: inherit;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 24px;
+		font-family: dashicons;
+		line-height: 1;
+	}
+}
+
+.redux_field_th {
+	padding-left: 0;
+	border-left: 0 solid #AE3535;
+	-webkit-transition: padding-left .3s ease-in-out;
+	transition: padding-left .3s ease-in-out;
+}
+
+.highlight-field {
+
+	> div {
+		border-bottom: 2px solid #AE3535 !important;
+	}
+}
+
+body ul.xtemos-settings-result {
+	border: none !important;
+
+	@include box-shadow(0 1px 3px rgba(173, 173, 173, .8));
+
+	li {
+		padding: 5px 10px;
+		border-bottom: 1px solid rgba(173, 173, 173, .4);
+		line-height: 1.4;
+
+		.ui-state-active {
+			border: none !important;
+		}
+
+		&.ui-state-focus {
+			border: none;
+			border-bottom: 1px solid rgba(173, 173, 173, .4);
+			background: #EDEDED;
+
+			.el {
+				color: #909090;
+			}
+
+			.settting-path {
+				opacity: 1;
+			}
+		}
+
+		.el {
+			display: block;
+			float: left;
+			margin-right: 5px;
+			margin-left: -5px;
+			width: 30px;
+			height: 40px;
+			color: #E3E3E3;
+			text-align: center;
+			font-size: 20px;
+			line-height: 40px;
+			transition: all .25s ease;
+		}
+	}
+
+	.setting-title {
+		font-size: 15px;
+	}
+
+	.settting-path {
+		color: #909090;
+		font-size: 12px;
+		opacity: .6;
+		transition: all .25s ease;
+	}
+}
+
+// ------------------------------------------
+// INSTAGRAM API CONTROL
+// ------------------------------------------
+
+.xts-instagram_api-control {
+
+	.xts-instagram-pic,
+	.xts-instagram-name {
+		margin-bottom: 10px;
+	}
+
+	.xts-instagram-pic {
+		max-width: 150px;
+
+		img {
+			border-radius: $xts-option-border-radius;
+		}
+	}
+
+	.xts-instagram-name {
+		
+		span {
+			font-weight: 600;
+		}
+	}
+
+	.xts-remove-upload-btn {
+		display: block;
+	}
+}

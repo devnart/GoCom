@@ -1,0 +1,51 @@
+{
+    "text-font": {
+        "font-family": "Open Sans",
+        "font-weight": "400",
+        "font-size": "15"
+    },
+    "primary-font": {
+        "font-family": "Open Sans",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "Open Sans",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Open Sans",
+        "font-weight": "600"
+    },
+    "primary-color": "#959c3a",
+    "btns_shop_bg": "#959c3a",
+    "btns_shop_bg_hover": "#899036",
+    "btns_accent_bg": "#959c3a",
+    "btns_accent_bg_hover": "#899036",
+    "pages-background": {
+        "background-color": "#f9f9f9",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "footer-style": "light",
+    "products_spacing": "20",
+    "footer-bar-bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": "http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2020\/02\/w-hemp-second-row-bg.jpg"
+    },
+    "sticky_toolbar": "0",
+    "age_verify": "yes",
+    "age_verify_color_scheme": "light",
+    "age_verify_background":{"color":"","url":"http:\/\/dummy.xtemos.com\/woodmart\/demos\/wp-content\/uploads\/sites\/2\/2020\/02\/w-hemp-second-row-bg.jpg","id":"2690","repeat":"","size":"","attachment":"","position":""}
+}

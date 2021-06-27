@@ -1,0 +1,35 @@
+{
+    "primary-color": "#B58352",
+    "primary-font": {
+        "font-family": "Playfair Display",
+        "font-weight": "400"
+    },
+    "text-font": {
+        "font-family": "Roboto"
+    },
+    "secondary-font": {
+        "font-family": "Italianno"
+    },
+    "form_fields_style": "rounded",
+    "btns_default_style": "rounded",
+    "btns_accent_style": "rounded",
+    "btns_shop_style": "rounded",
+    "form_border_width": "1",
+    "btns_shop_bg": "#B58352",
+    "btns_accent_bg": "#B58352",
+    "btns_shop_bg_hover": "#C6A07D",
+    "btns_accent_bg_hover": "#C6A07D",
+    "post-titles-font": {
+        "font-family": "Lora"
+    },
+    "widget-titles-font": {
+        "font-family": "Lora"
+    },
+    "navigation-font": {
+        "font-family": "Roboto",
+        "font-weight": "500"
+    },
+    "products_hover": "quick",
+    "sticky_footer": "yes",
+    "products_spacing": "20"
+}

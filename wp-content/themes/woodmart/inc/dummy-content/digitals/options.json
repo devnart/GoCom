@@ -1,0 +1,31 @@
+{
+    "primary-color": "#4876CA",
+    "footer-bar-bg": {
+        "background-color": "#17172F"
+    },
+    "footer-style": "light",
+    "btns_accent_bg": "#4876ca",
+    "btns_accent_bg_hover": "#346cd2",
+    "header_widget": "[html_block id=\"1132\"]",
+    "primary-font": {
+        "font-family": "Nunito"
+    },
+    "post-titles-font": {
+        "font-family": "Nunito",
+        "font-weight": "600"
+    },
+    "text-font": {
+        "font-family": "Open Sans"
+    },
+    "btns_accent_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_shop_bg": "#4876ca",
+    "btns_shop_bg_hover": "#346cd2",
+    "product_summary_shadow": "yes",
+    "product-background": {
+        "background-color": "#f9f9f9"
+    },
+    "label_shape": "rectangular",
+    "products_hover": "tiled",
+    "products_spacing": "20"
+}

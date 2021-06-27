@@ -1,0 +1,63 @@
+{
+    "text-font": {
+        "font-family": "Inter",
+        "font-weight": "400",
+        "font-size": "15"
+    },
+    "primary-font": {
+        "font-family": "Spartan",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "Spartan",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Spartan",
+        "font-weight": "600",
+        "font-size": "14"
+    },
+    "navigation-font": {
+        "font-family": "Inter",
+        "font-weight": "500",
+        "font-size": "13"
+    },
+    "primary-color": "#114639",
+    "btns_shop_bg": "#114639",
+    "btns_shop_bg_hover": "#0f4034",
+    "btns_accent_bg": "#114639",
+    "btns_accent_bg_hover": "#0f4034",
+    "footer-bar-bg": {
+        "background-color": "#111111",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": ""
+    },
+    "footer-style": "light",
+    "pages-background": {
+        "background-color": "#f3f3f3",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "prefooter_area": "[html_block id=\"9463\"]",
+    "products_hover": "icons",
+    "advanced_typography": {
+        "0": {
+			"selector": "",
+			"custom-selector": [".wd-load-additional-fonts"],
+            "google": "1",
+            "font-family":"Spartan",
+            "font-weight":"700"
+        }
+    }
+}

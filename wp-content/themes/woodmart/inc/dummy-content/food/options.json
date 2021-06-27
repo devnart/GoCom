@@ -1,0 +1,25 @@
+{
+    "footer-bar-bg": {
+        "background-color": "#111111"
+    },
+    "footer-style": "light",
+    "primary-font": {
+        "font-family": "Playfair Display"
+    },
+    "post-titles-font": {
+        "font-family": "Lora",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Lora",
+        "font-weight": "600"
+    },
+    "primary-color": "#5f6e1e",
+    "btns_shop_bg": "#5f6e1e",
+    "btns_shop_bg_hover": "#4c5608",
+    "btns_accent_bg": "#5f6e1e",
+    "btns_accent_bg_hover": "#4c5608",
+    "btns_shop_style": "flat",
+    "page-title-size": "large",
+    "products_spacing": "20"
+}

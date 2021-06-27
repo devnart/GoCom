@@ -1,0 +1,234 @@
+// ------------------------------------------------------------------------------------------------
+// DASHBOARD NAVIGATION
+// ------------------------------------------------------------------------------------------------
+
+.xts-sections-nav {
+	position: relative;
+	flex: 0 0 230px;
+	background-color: #333;
+
+	a {
+		transition: all .2s ease;
+	}
+
+	> ul {
+		margin: 0;
+
+		> li {
+
+			> a {
+				padding-left: 45px;
+			}
+		}
+	}
+
+	li {
+		margin-bottom: 0;
+
+		ul {
+			display: none;
+		}
+
+		&.xts-has-child {
+
+			> a {
+
+				&:before {
+					content: "\f347";
+					position: absolute;
+					top: 50%;
+					right: 10px;
+					margin-top: -8px;
+					color: rgba(#FFF, .2);
+					font-size: 16px;
+					font-family: "dashicons";
+					line-height: 16px;
+				}
+			}
+
+			&.xts-active-nav {
+
+				> a {
+					background-color: #131313;
+
+					&:before {
+						content: "\f343";
+					}
+				}
+			}
+
+			ul {
+
+				a {
+					padding: 10px 7px 10px 15px;
+				}
+			}
+		}
+
+		&:hover,
+		&.xts-active-nav {
+
+			> a {
+				color: #FFF;
+			}
+
+			a {
+				background-color: rgba(0, 0, 0, .2);
+			}
+		}
+
+		&.xts-subsection-nav {
+
+			&:hover,
+			&.xts-active-nav {
+
+				a {
+					background-color: rgba(0, 0, 0, .4);
+					color: #FFF;
+				}
+			}
+		}
+
+		&.xts-active-nav {
+
+			ul {
+				display: block;
+			}
+		}
+	}
+
+	a {
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding: 15px;
+		border-width: 0;
+		border-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: rgba(255, 255, 255, .05);
+		color: #090909;
+		color: rgba(255, 255, 255, .7);
+		text-decoration: none;
+		font-size: 14px;
+
+		&:hover {
+			color: $xts-color-primary;
+		}
+
+		&:focus {
+			outline: none;
+			box-shadow: 0 0 0 transparent;
+		}
+	}
+
+	.xts-section-icon {
+		position: absolute;
+		top: 14px;
+		left: 12px;
+
+		.dashicons {
+			width: 18px;
+			height: 18px;
+			color: rgba(255, 255, 255, .3);
+			font-size: 18px;
+			line-height: 18px;
+		}
+	}
+
+	.xts-section-icon {
+
+		.dashicons-editor-textcolor {
+			margin-left: -3px;
+			font-size: 26px;
+		}
+
+		.dashicons-admin-home {
+			margin-left: -2px;
+			font-size: 22px;
+		}
+
+		.dashicons-welcome-write-blog {
+			font-size: 19px;
+		}
+
+		.dashicons-media-text {
+			margin-left: -1px;
+			font-size: 20px;
+		}
+
+		.dashicons-admin-settings {
+			margin-left: -1px;
+			font-size: 20px;
+		}
+	}
+
+	.rtl & {
+
+		> ul {
+
+			> li {
+
+				> a {
+					padding-right: 45px;
+					padding-left: 0;
+				}
+			}
+		}
+
+		li {
+
+			&.xts-has-child {
+
+				> a {
+
+					&:before {
+						right: auto;
+						left: 10px;
+					}
+				}
+
+				ul {
+
+					a {
+						padding: 7px 15px 7px 7px;
+					}
+				}
+			}
+		}
+
+		.xts-section-icon {
+			right: 12px;
+			left: auto;
+		}
+	}
+}
+
+.xts-active-nav {
+	position: relative;
+
+	> a {
+		color: $xts-color-primary;
+
+		&:before {
+			color: $xts-color-primary;
+			opacity: 1;
+		}
+	}
+}
+
+.xts-not-inherit {
+
+	> a {
+
+		&:after {
+			content: "\f528";
+			margin-left: 5px;
+			color: #CB3D3D;
+			font-size: 14px;
+			font-family: dashicons;
+			line-height: 1;
+			opacity: .8;
+
+		}
+	}
+}

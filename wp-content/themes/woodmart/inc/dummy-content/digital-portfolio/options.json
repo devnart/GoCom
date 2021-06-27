@@ -1,0 +1,16 @@
+{
+    "primary-font": {
+        "font-family": "Poppins",
+        "font-weight": "700"
+    },
+    "secondary-font": {
+        "font-family": "Playfair Display",
+        "font-weight": "700"
+    },
+    "footer-bar-bg": {
+        "background-color": "#1e1e1e"
+    },
+    "footer-style": "light",
+    "shop-background": "",
+    "disable_footer": ""
+}

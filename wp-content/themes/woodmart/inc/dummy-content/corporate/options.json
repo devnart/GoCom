@@ -1,0 +1,21 @@
+{
+    "primary-font": {
+        "font-family": "Quicksand"
+    },
+    "text-font": {
+        "font-family": "Open Sans"
+    },
+    "primary-color": "#0f91e3",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "#1796E5"
+    },
+    "btns_shop_bg": "#0f91e3",
+    "btns_accent_bg": "#0f91e3",
+    "btns_shop_bg_hover": "#0E84CF",
+    "btns_accent_bg_hover": "#0E84CF",
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_accent_style": "semi-rounded",
+    "form_fields_style": "semi-rounded"
+}

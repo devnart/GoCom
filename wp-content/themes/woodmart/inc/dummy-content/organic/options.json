@@ -1,0 +1,21 @@
+{
+    "primary-color": "#83AC2B",
+    "primary-font": {
+        "font-family": "Signika"
+    },
+    "post-titles-font": {
+        "font-family": "Signika"
+    },
+    "widget-titles-font": {
+        "font-family": "Signika"
+    },
+    "blog_style": "flat",
+    "btns_default_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_accent_style": "rounded",
+    "form_fields_style": "rounded",
+    "sticky_social": true,
+    "sticky_social_type": "follow",
+    "sticky_social_position": "right",
+    "products_spacing": "20"
+}

@@ -1,0 +1,45 @@
+{
+    "header_banner": "yes",
+    "primary-font": {
+        "font-family": "Rosarivo",
+        "font-weight": "400"
+    },
+    "secondary-font": {
+        "font-family": "Dancing Script"
+    },
+    "post-titles-font": {
+        "font-family": "Rosarivo",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "Rosarivo",
+        "font-weight": "400"
+    },
+    "primary-color": "#c01157",
+    "header_banner_bg": {
+        "background-color": "#c01157"
+    },
+    "header_close_btn": "",
+    "header_banner_shortcode": "<p style=\"text-align: center;color: white\" class=\"font-alt\"><span style=\"font-size: 16px\" class=\"visible-xs\">Lingerie spring sale for all bras Discount 30%</span></p>",
+    "header_banner_color": "dark",
+    "favicon": "",
+    "btns_accent_bg": "#c01157",
+    "btns_shop_bg": "#c01157",
+    "btns_accent_bg_hover": "#AD0C50",
+    "btns_shop_bg_hover": "#AD0C50",
+    "blog_style": "flat",
+    "text-font": {
+        "font-family": "Karla"
+    },
+    "navigation-font": {
+        "font-family": "Karla",
+        "font-weight": "400",
+        "font-size": "14"
+    },
+    "products_hover": "quick",
+    "blog_excerpt_length": "100",
+    "btns_shop_style": "flat",
+    "btns_default_style": "flat",
+    "btns_accent_style": "flat",
+    "products_spacing": "20"
+}

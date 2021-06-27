@@ -1,0 +1,84 @@
+{
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Jost",
+            "font-woff": {
+                "url": "",
+                "id": "2544"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2541"
+            }
+        },
+        "2": {
+            "font-name": "Jost",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "2548"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "2549"
+            }
+        },
+        "3": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "1623"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1624"
+            }
+        }
+    },
+    "text-font": {
+        "font-family": "Jost",
+        "font-weight": "400",
+        "font-size": "14"
+    },
+    "primary-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "navigation-font": {
+        "font-family": "Lato",
+        "font-weight": "700",
+        "font-size": "13"
+    },
+    "primary-color": "#2e6bc6",
+    "btns_shop_bg": "#2e6bc6",
+    "btns_shop_bg_hover": "#2a61b4",
+    "btns_accent_bg": "#2e6bc6",
+    "btns_accent_bg_hover": "#2a61b4",
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_accent_style": "semi-rounded",
+    "secondary-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "footer-layout": "1",
+    "footer-style": "light",
+    "prefooter_area": "",
+    "disable_copyrights": "",
+    "footer-bar-bg": {
+        "background-color": "#101010"
+    },
+    "rev_slider_inherit_theme_font": "yes",
+    "attr_after_short_desc": "yes",
+    "products_hover": "quick",
+    "content_after_add_to_cart": "[html_block id=\"9398\"]"
+}
